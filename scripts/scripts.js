@@ -73,7 +73,7 @@ $(function(){
 //     .done(console.log(data))
 //     .fail(console.log("I have no idea what is happening"));
 
-    fetch("courses.json")
+    fetch("scripts/courses.json")
         .then(response => console.log(response));
 
     // variables to store the different types of data in our JSOn file to be used in different sections of the page
