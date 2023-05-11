@@ -69,17 +69,18 @@ $(function(){
 
     // get the data stored in our local JSON file so we can use it to display information to the user and create the major map builder
     // $.getJSON("scripts/courses.json", parseJSONfile(data));
-    $.getJSON("scripts/courses.json")
-    .done(console.log(data))
-    .fail(console.log("I have no idea what is happening"));
+//     $.getJSON("scripts/courses.json")
+//     .done(console.log(data))
+//     .fail(console.log("I have no idea what is happening"));
 
-    // fetch("courses.json")
-    //     .then(response => console.log(response));
+    fetch("courses.json")
+        .then(response => console.log(response));
 
     // variables to store the different types of data in our JSOn file to be used in different sections of the page
     let focusAreas, coreGitCourses, coreNonGitCourses, genStudies, gitElectives, electives, focusAreaCourses, photoCourses, printCourses, videoCourses, frontEndCourses, interactionDesignCourses, motionGraphicsCourses, uxCourses;
 
     // Function to handle parsing the JSON file of courses for display
+    
     function parseJSONfile(json){
         let data = $.parseJSON(json);
         console.log('json data in parseJSONfile function', data);
