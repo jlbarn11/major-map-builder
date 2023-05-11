@@ -74,7 +74,8 @@ $(function(){
 //     .fail(console.log("I have no idea what is happening"));
 
     fetch("scripts/courses.json")
-        .then(response => console.log(response));
+        .then(response => response.json())
+        .then(data => console.log(data));
 
     // variables to store the different types of data in our JSOn file to be used in different sections of the page
     let focusAreas, coreGitCourses, coreNonGitCourses, genStudies, gitElectives, electives, focusAreaCourses, photoCourses, printCourses, videoCourses, frontEndCourses, interactionDesignCourses, motionGraphicsCourses, uxCourses;
