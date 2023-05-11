@@ -1,0 +1,939 @@
+/*
+    http://meyerweb.com/eric/tools/css/reset/ 
+    v2.0 | 20110126
+    License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* ---------- CUSTOM/GLOBAL STYLES ---------- */
+:root{
+    /* ASU Brand Colors */
+	--wht: #fff;
+	--black: #000;
+	--maroon: #8c1d40;
+	--gold: #ffc627;
+	--blue: #00a3e0;
+	--green: #78be20;
+	--orange: #ffcf32;
+    --gray: #747474;
+    --gray1: #FAFAFA;/* open accordion panel background */ 
+    --gray2: #E8E8E8; /* background on accordion heading: hover/focus */
+    --gray3: #D0D0D0; /* border on accordion heading */
+    --gray4: #BFBFBF;
+    --gray5: #747474;
+    --gray6: #484848;
+    --gray7: #191919; /* accordion text & sidebar */
+    --visited-inline-link: #440E22;
+    --error: #B72A2A;
+    --success: #446D12;
+    --error-dk: #FF7B7D;
+    --success-dk: #78BE20;
+
+    /* ASU Fonts */
+	--fonts: Arial, sans-serif;
+
+    /* ASU Focus Shadow Style */
+    --focus-shadow: 0 0 8px #00baff;
+}
+
+/* ----- skip link styles ----- */
+/* found here: https://webaim.org/techniques/css/invisiblecontent/ */
+#skip{
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+#skip:focus{
+    position: static;
+    width: auto;
+    height: auto;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--wht);
+    background-color: var(--black);
+    outline: 2px solid var(--orange);
+    margin-bottom: 2px;
+}
+
+/* ----- Accessible hidden content styles - for screen readers ----- */
+/* found here: https://webaim.org/techniques/css/invisiblecontent/ */
+.sr-only {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+/* Not at all accessible hidden content class */
+.hidden{
+    display: none;
+}
+
+body{
+    font-family: var(--fonts);
+    font-size: 1.1rem;
+    box-sizing: border-box;
+	background-color: var(--gray7); 	
+	line-height: 1.5;
+}
+
+#background{
+	width: 100vw;
+	height: 100vh;
+	background-image: url("images/mobile-background.svg"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+    position: fixed;
+    z-index: -2;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+#flex-bkgrnd{
+	display: none;
+}
+
+/* Header, Main, Footer Styles */
+header, main, footer{
+    background-color: var(--wht);
+    width: 80%;
+    max-width: calc(1440px - 32px);
+    margin: 0 auto;
+    padding: 32px 16px;
+    position: relative;
+    z-index: 2;
+}
+
+/* Header Styles */
+header{
+    background-color: var(--black);
+    color: var(--wht);
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 16px 8px;
+    padding-top: 16px;
+    overflow: hidden;
+}
+
+/* Link Styles */
+a{
+    display: block;
+    padding: 1rem;
+    color: var(--maroon);
+}
+
+/* Link Hover Styles */
+p a:hover, #accordion section a:hover{
+    text-decoration: none;
+}
+
+/* Link Focus Styles */
+p a:focus, p a:focus-visible, p a:visited:focus-visible, 
+#accordion section a:focus, #accordion section a:focus-visible, 
+#accordion section a:visited:focus-visible{
+    background-color: var(--maroon);
+    color: var(--wht);
+    outline-color: var(--gold);
+    outline-offset: 2px;
+    text-decoration: none;
+}
+
+/* Visited Link Styles */
+p a:visited, #accordion section a:visited{
+    color: var(--visited-inline-link);
+}
+
+/* Link Around Logo */
+header > a{
+    padding: 0;
+    width: 125px;
+}
+
+/* Logo Image Link on Focus */
+header > a:focus{
+    outline: 2px solid var(--gold);
+}
+
+/* Logo Image Styles */
+header > a img{
+    /* width: 50%; */
+    max-width: 125px;
+    margin: 0 auto;
+}
+
+
+/* Image Styles */
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Shared Heading Styles */
+h1, h2, h3{
+    font-weight: bold;
+    width: fit-content;
+    letter-spacing: -0.5px;
+}
+
+/* H1 Styles */
+h1{
+    font-size: 2rem;
+    line-height: 2.5rem;
+    color: var(--wht);
+    text-align: center;
+    grid-column: 1/-1;
+}
+
+/* H2 Styles */
+h2{
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin: 8px 0;
+    background-color: var(--gold);
+    padding: 4px 8px;
+    text-align: center;
+}
+
+/* H3 Styles */
+h3{
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+    padding: 4px 8px;
+    margin: 8px 0;
+    color: var(--wht);
+    background-color: var(--black);
+
+}
+
+/* Navigation Styles */
+#hamburger{
+    font-family: "Anicons Regular", sans-serif;
+	font-variation-settings: "TIME" 1;
+	font-size: 3rem;
+	color: var(--dark-green);
+	transition: font-variation-settings 0.4s ease;
+    background-color: transparent;
+    border: none;
+    margin-top: 16px;
+    /* position: relative;
+    top: -20%;
+    left: 80%; */
+    grid-row: 1/2;
+    grid-column: 2/3;
+    align-self: start;
+    justify-self: end;
+}
+
+#hamburger:focus{
+    outline: 2px solid var(--gold);
+    outline-offset: 2px;
+    text-decoration: none; 
+}
+
+#hamburger:hover{
+    transform: scale(1.05);
+    color: var(--gold);
+}
+
+#hamburger.open{
+	font-variation-settings: "TIME" 100;
+}
+
+nav{
+    grid-column: 1/-1;
+}
+
+nav ul{
+    width: 100%;
+    /* max-width: 600px; */
+    margin: 16px auto;
+    /* padding: 32px 16px; */
+    /* flex-basis: 100%; */
+    text-align: center;
+    /* grid-column: 1/-1; */
+    background-color: var(--black);
+    /* width: 100%; */
+    /* height: 100vh; */
+    /* position: absolute;
+    top: 120px; */
+    /* left: 0; */
+    /* right: 0;
+    z-index: 3; */
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+nav a{
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-decoration: none;
+    width: fit-content;
+    padding: 16px 32px;
+    margin: 0 auto;
+    background-color: var(--gold);
+    color: var(--black);
+    border-radius: 32px;
+    transition: all 300ms;
+}
+
+/* Nav Link Hover Styles */
+nav a:hover{
+    transform: scale(1.05);
+    background-color: var(--gold);
+    color: var(--black);
+}
+
+/* Nav Visited Link Styles */
+nav a:visited{
+
+}
+
+/* Nav Link Focus Styles */
+nav a:focus, nav a:focus-visible{
+    transform: scale(0.95);
+    outline: 2px solid var(--gold);
+    outline-offset: 4px;
+}
+
+/* Main Styles */
+main{
+    
+}
+
+/* Sections in Main */
+main > div, main > section{
+    padding: 2rem 0;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Paragraph Styles */
+p{
+    width: 100%;
+    max-width: 65ch;
+    margin: 0 auto;
+    padding: 16px 0;
+    line-height: 1.4;
+}
+
+/* Intro Content */
+#intro{
+    /* max-width: 710px;
+    margin: 0 auto; */
+}
+
+#intro p > a{
+    display: inline;
+    padding: 0;
+}
+
+#intro ul{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 16px auto;
+}
+
+/* Paragraph About Images */
+.additional-info{
+    /* font-style: italic;
+    font-size: 1rem;
+    max-width: 68ch;
+    padding: 0 0 0; */
+}
+
+/* jQuery Element Styles */
+
+.ui-widget{
+    /* font-family: var(--fonts);
+    width: 100%;
+    max-width: 700px;
+    margin: 16px auto; */
+}
+
+form{
+    width: 100%;
+    max-width: 400px;
+    margin: 16px auto;
+}
+
+fieldset{
+    margin: 16px auto;
+    width: 100%;
+}
+
+form label{
+    display: block;
+    margin-bottom: 4px;
+    font-weight: 600;
+}
+
+.ui-front.ui-selectmenu-open{
+
+}
+
+select{
+    width: 85% !important;
+}
+
+.ui-corner-all.ui-widget, .ui-selectmenu-button.ui-button, .ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl{
+    border-radius: 0;
+    background-color: var(--wht);
+    width: 85% !important;
+    margin: 8px auto 16px auto;
+    margin: 0;
+}
+
+.ui-state-active, .ui-menu .ui-state-active{
+    border: none;
+    background: var(--gold);
+    color: var(--gray7);
+}
+
+.ui-widget.ui-widget-content, .ui-front.ui-selectmenu-open{
+    width: calc(100% - 34px) !important;
+    max-width: 409px !important;
+}
+
+.ui-menu .ui-menu-item-wrapper{
+    padding: 4px 16px;
+    margin: 0;
+}
+
+.ui-corner-all.ui-widget:focus-visible, 
+.ui-selectmenu-button.ui-button:focus-visible{
+    outline: 4px solid var(--gold);
+    outline-offset: 2px;
+}
+
+/* Shared Heading Styles */
+.ui-accordion .ui-accordion-header{
+    /* background: none;
+    background-color: var(--wht);
+    border-top: 1px solid var(--gray3);
+    border-bottom: 1px solid var(--gray3);
+    border-left: 8px solid var(--gold);
+    border-right: 1px solid var(--gray3);
+    border-radius: 0;
+    font-size: 1.25rem;
+    color: var(--gray7);
+    width: calc(100% - 33px);
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; */
+}
+
+h3.ui-accordion-header.ui-corner-top.ui-state-default.ui-accordion-header-active.ui-state-active{
+    /* margin: 0 auto; */
+}
+
+h3.ui-accordion-header.ui-corner-top.ui-accordion-header-collapsed.ui-corner-all.ui-state-default, h3.ui-accordion-header.ui-corner-top.ui-accordion-header-collapsed.ui-corner-all.ui-state-default.ui-state-hover{
+    /* margin: 0 auto 24px auto; */
+}
+
+/* Heading on Hover */
+h3.ui-accordion-header.ui-corner-top.ui-accordion-header-collapsed.ui-corner-all.ui-state-default.ui-state-hover{
+    /* background-color: var(--gray3); */
+}
+
+/* Active Heading Styles */
+h3.ui-accordion-header.ui-corner-top.ui-state-default.ui-accordion-header-active.ui-state-active{
+    /* padding: 8px 10px; */
+}
+
+/* Hover Heading Styles */
+/* h3.ui-accordion-header.ui-corner-top.ui-state-default.ui-accordion-header-active.ui-state-active */
+#accordion h3:focus, #accordion h3:focus-visible{
+    /* outline: 4px solid var(--gold);
+    outline-offset: 2px; */
+}
+
+/* Headings When the Accordion Panel is Collapsed */
+h3.ui-accordion-header.ui-corner-top.ui-accordion-header-collapsed.ui-corner-all.ui-state-default span.fa-solid.fa-chevron-down{
+    /* display: inline-block;
+    content: url("images/chevron-down-solid.svg");
+    width: 1.5rem;
+    height: 1.5rem;
+    color: var(--gray7); */
+}
+
+/* h3.ui-state-hover .fa-solid.fa-chevron-down, h3.ui-state-focus .fa-solid.fa-chevron-down{
+    display: inline-block;
+    content: url("images/chevron-down-solid.svg");
+    width: 1.5rem;
+    height: 1.5rem;
+    color: var(--gray7);
+} */
+
+/* Headings When the Accordion Panel is Open */
+h3.ui-accordion-header.ui-corner-top.ui-state-default.ui-accordion-header-active.ui-state-active span.fa-solid.fa-chevron-down{
+    /* transform: rotate(180deg); */
+}
+
+/* Heading Arrows (Default) */
+.ui-accordion .ui-accordion-header span.fa-solid.fa-chevron-down{
+    /* display: inline-block;
+    content: url("images/chevron-down-solid.svg");
+    width: 1.5rem;
+    height: 1.5rem;
+    color: var(--gray7);
+    transition: all 500ms; */
+}
+
+/* Sections of Accordion When Open */
+#accordion section{
+    /* width: calc(100% - 45px) !important;
+    margin: 0 auto 24px auto !important;
+    padding: 16px !important;
+    background: none;
+    background-color: var(--gray1);
+    color: var(--gray7);
+    border: 1px solid var(--gray3);
+    border-top-width: 1px !important;
+    border-bottom-width: 1px !important;
+    border-left: 8px solid var(--gold) !important;
+    border-radius: 0;
+    font-size: 1rem;
+    position: relative;
+    transition: all 300ms; */
+    /* left: 5px; */
+}
+
+/* Accordion Link Styles */
+#accordion section a{
+    /* padding: 8px;
+    width: fit-content;
+    margin: 8px 0 0 0;
+    color: var(--maroon);
+    font-weight: bold; */
+}
+
+#accordion dd{
+    /* padding: 0 0 0 16px; */
+}
+
+/* For the Button to Subscribe to The Scoop in the Subscribe Section */
+.btn-default{
+    text-align: center;
+    background-color: var(--maroon);
+    color: var(--wht);
+    font-weight: bold;
+    padding: 16px 32px;
+    margin: 0 auto;
+    width: fit-content;
+    border-radius: 32px;
+    text-decoration: none;
+    transition: all 300ms;
+}
+
+/* For the Button to Subscribe on Hover */
+.btn-default:hover{
+    transform: scale(1.05);
+}
+
+/* Default Button Focus Styles */
+.btn-default:focus,
+.btn-default:focus-visible{
+    /* background-color: var(--maroon);
+    color: var(--wht); */
+    outline: 4px solid var(--gold);
+    outline-offset: 2px;
+    text-decoration: none;
+}
+
+/* Footer Styles */
+footer{
+    background: var(--black);
+    color: var(--wht);
+}
+
+/* Footer Social Media Section Styles */
+#socials{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* gap: 16px; */
+    max-width: 180px;
+    margin: 16px auto;
+    color: var(--wht);
+}
+
+/* Links to Socials */
+.social-link{
+    display: block;
+    padding: 8px 16px;
+}
+
+.social-link svg{
+    display: block;
+    fill: var(--gray4);
+    width: 28px;
+    height: 32px;
+}
+
+.social-link:hover svg{
+    fill: var(--gold);
+}
+
+/* Footer Paragraph Styles */
+footer p{
+    padding: 16px 0;
+    text-align: center;
+
+}
+
+/* Footer Second Span Styles */
+footer span:last-of-type{
+    /* display: block;
+    margin: 8px auto; */
+}
+
+/* Footer Link Styles */
+footer a{
+    padding: 4px 8px;
+    width: fit-content;
+    margin: 0 auto;
+    color: var(--wht);
+}
+
+/* Footer Link Hover Styles */
+footer a:hover{
+    color: var(--wht);
+}
+
+/* Footer Links on Focus Styles */
+footer a:focus, footer a:focus-visible{
+    outline: 2px solid var(--gold);
+}
+
+footer > p a:focus, footer > p a:focus-visible{
+    outline-offset: 4px;
+}
+
+/* For the Back to top Link */
+#btt{
+    background-color: var(--gray);
+    color: var(--wht);
+    line-height: 1;
+    text-decoration: none;
+    padding: 16px;
+    width: 6rem;
+    height: 48px;
+    transform: rotate(270deg);
+    position: fixed;
+    top: calc(100vh - 176px);
+    left: calc(100vw - 100px);
+    text-align: right;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 0 8px;
+    align-items: center;
+    transition: all 300ms;
+}
+
+/* For styling the text in the Back to Top Button */
+#btt span{
+    display: block;
+    margin: 0;
+    grid-column: 1/2;
+}
+
+/* For the Arrow Icon in the Back To Top Button */
+#btt svg{
+    display: inline-block;
+    height: 3rem;
+    width: auto;
+    padding: 0;
+    fill: var(--wht);
+    grid-column: 2/3;
+    grid-row: 1/3;
+    transition: padding 300ms;
+}
+
+/* For the Back to Top Button on Hover */
+#btt:hover{
+    width: calc(6rem + 8px);
+    left: calc(100vw - 108px);
+}
+
+#btt:hover svg{
+    padding-left: 8px;
+}
+
+
+/* ---------- Media Queries ---------- */
+/* For smaller mobile screens */
+@media screen and (min-width: 495px){
+    #intro ul{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 709px;
+    }
+}
+
+/* for larger mobile and tablet screens */
+@media screen and (min-width: 605px){
+    /* Update Background SVG Layout */
+	#background{
+		width: 100vw;
+		background-image: url("images/tablet.svg");
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+    /* Allow Header to Display in Two Columns */
+    header{
+        /* display: grid;
+        grid-template-columns: 1fr 2fr; */
+        /* align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px; */
+        /* justify-content: space-around; */
+    }
+
+    /* H1 Styles */
+    h1{
+        margin: 0 auto;
+    }
+
+    /* H2 Styles */
+    h2{
+        text-align: left;
+    }
+
+    /* Logo Image Styles */
+    header > a img{
+        /* width: 100%; */
+    }
+
+    /* Navigation List Adjustments */
+    nav ul{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* Navigation Link Styles */
+    nav a{
+        /* margin: 0 auto; */
+    }
+
+    /* Link in Footer */
+    footer a{
+        display: inline;
+        padding: 0;
+    }
+}
+
+/* for larger tablet and smaller laptop screens */
+@media screen and (min-width: 900px){
+
+    #background{
+		display: block;
+		background-image: url("images/wide-background.svg");
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+    #flex-bkgrnd{
+		display: none;
+	}
+
+    /* Header Styles */
+    header{
+        grid-template-columns: 1fr 5fr;
+        align-items: center;
+        gap: 16px;
+    }
+
+    /* Logo in Header Styles */
+    header > a{
+        justify-self: end;
+    }
+
+    header > a img{
+        max-width: 200px;
+    }
+
+    /* H1 Styles */
+    h1{
+        font-size: 2.5rem;
+        line-height: 1.5;
+        grid-row: auto;
+        grid-column: auto;
+    }
+
+    /* Hamburger Button Styles */
+    #hamburger{
+        display: none;
+    }
+
+    /* Nav Styles */
+    nav{
+        margin: 0 auto 16px auto;
+    }
+
+    /* Nav Ul Styles */
+    nav ul{
+        position: static !important;
+    }
+
+    /* Adjustments to Form Dropdown Layout */
+    .ui-selectmenu-menu.ui-front.ui-selectmenu-open.prog-select > ul{
+        width: calc(57% - 3px) !important; 
+    }
+
+    .ui-selectmenu-menu.ui-front.ui-selectmenu-open.deg-select > ul{
+        width: calc(58% - 7px) !important;
+    }
+
+    .ui-selectmenu-menu.ui-front.ui-selectmenu-open.focus-select > ul{
+        width: calc(57% - 3px) !important;
+    }
+
+    /* Allow Dropdowns to be Positioned Relatively */
+    .ui-selectmenu-menu{
+        position: relative;
+    }
+
+    /* Unnecessary Elements without effect for hamburger */
+    .ui-effects-placeholder{
+        display: none !important;
+    }
+
+    /* Form Layout Adjustment */
+    form{
+        max-width: 100%;
+        display: flex;
+        gap: 16px;
+    }
+}
+
+/* For large screens */
+@media screen and (min-width: 1000px) {
+    
+    /* Adjustments to Form Dropdown Layout */
+    .ui-selectmenu-menu.ui-front.ui-selectmenu-open.prog-select > ul{
+        width: calc(63% - 4px) !important; 
+    }
+
+    .ui-selectmenu-menu.ui-front.ui-selectmenu-open.deg-select > ul{
+        width: calc(63% - 4px) !important;
+    }
+
+    .ui-selectmenu-menu.ui-front.ui-selectmenu-open.focus-select > ul{
+        width: calc(63% - 4px) !important;
+    }
+}
+
+/* for large and extra large screens */
+@media screen and (min-width: 1200px){
+
+    /* Header Styles */
+    header{
+        grid-template-columns: 1fr 4fr;
+    }
+
+    /* H1 Styles */
+    h1{
+        font-size: 3rem;
+        margin: 0;
+    }
+
+    /* form width adjustments */
+    form{
+        max-width: 960px;
+    }
+
+    /* Adjustments to Form Dropdown Layout */
+    .ui-selectmenu-menu.ui-front.ui-selectmenu-open.prog-select > ul{
+        width: calc(74% - 3px) !important; 
+    }
+
+    .ui-selectmenu-menu.ui-front.ui-selectmenu-open.deg-select > ul{
+        width: calc(74% - 3px) !important;
+    }
+
+    .ui-selectmenu-menu.ui-front.ui-selectmenu-open.focus-select > ul{
+        width: calc(74% - 3px) !important;
+    }
+
+    /* Footer Styles */
+    footer{
+        display: flex;
+        align-items: center;
+    }
+
+    /* Footer Paragraph Styles */
+    footer p{
+        width: fit-content;
+    }
+}
+
+/* for extra large screens */
+@media screen and (min-width: 1700px){
+    /* Header Styles */
+    header{
+        /* grid-template-columns: 1fr 3fr; */
+    }
+
+    /* H1 Styles */
+    h1{
+        font-size: 3.5rem;
+    }
+}

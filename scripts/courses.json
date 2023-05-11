@@ -1,0 +1,1724 @@
+{
+    "focus-areas": [
+        "Commercial Photography",
+        "Commercial Print",
+        "Commercial Videography",
+        "Front-End Web Development",
+        "Interaction Design",
+        "Motion Graphics"
+    ],
+    "core-git": [
+        {
+            "name": "Graphic Communications",
+            "term": 1,
+            "program": "GIT",
+            "number": 135,
+            "credits": 3,
+            "description": "Processes involved in design, asset generation, transmission, production and evaluation of visual content.",
+            "minimum-grade": "C",
+            "requirements": [
+                
+            ],
+            "prerequisites": [
+
+            ],
+            "semesters": [
+                "fall",
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "iCourse"
+            ],
+            "topics": [
+                "design"
+            ],
+            "focusArea": "Interaction Design",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+
+            ]
+        },
+        {
+            "name": "Creative Thinking and Design Visualization",
+            "term": 1,
+            "program": "GIT",
+            "number": 210,
+            "credits": 3,
+            "description": "Fundamental methods, concepts and techniques of creative thinking, ideation and problem solving, including communication and societal influences. Examines drawing and design visualization, from sketching to data graphics.",
+            "minimum-grade": "none",
+            "requirements": [
+                
+            ],
+            "prerequisites": [
+
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "iCourse"
+            ],
+            "topics": [
+                "design", 
+                "creative thinking"
+            ],
+            "focusArea": "Interaction Design",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ]
+        },
+        {
+            "name": "Digital Illustration in Publishing",
+            "term": 2,
+            "program": "GIT",
+            "number": 230,
+            "credits": 3,
+            "description": "Raster and vector illustration in publishing.",
+            "minimum-grade": "C",
+            "requirements": [
+                "MAT117 with C or better"
+            ],
+            "prerequisites": [
+                "MAT117"
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "iCourse"
+            ],
+            "topics": [
+                "design", 
+                "Adobe Illustrator", 
+                "Adobe Photoshop"
+            ],
+            "focusArea": "Interaction Design",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ]
+        },
+        {
+            "name": "Graphic Industry Business Practices",
+            "term": 8,
+            "program": "GIT",
+            "number": 432,
+            "credits": 3,
+            "description": "Business practices related to the graphics industry; business models, cost and rate analysis, marketing and management approaches.",
+            "minimum-grade": "none",
+            "requirements": [
+                "minimum senior standing", 
+                "credit allowed only for GIT432 OR GIT532 OR visiting university student"
+            ],
+            "prerequisites": [
+                
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus"
+            ],
+            "topics": [
+                "career preparation"
+            ],
+            "focusArea": "all",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ]
+        },
+        {
+            "name": "Digital Workflow in Graphic Industries",
+            "term": 7,
+            "program": "GIT",
+            "number": 450,
+            "credits": 3,
+            "description": "Digital production system analysis for content creation, automation output of graphic information to print and Web, including networking and job tracking.",
+            "minimum-grade": "none",
+            "requirements": [
+                "applied science (graphic info tech) BAS major",
+                "GIT303 OR applied science (Internet & Web Dev) BAS major OR GIT215 with a C or better",
+                "GIT303",
+                "credit is only allowed for GIT450 OR GIT550 OR GIT598 (Digital Workflow in Graphic Industries) OR visiting university student"
+            ],
+            "prerequisites": [
+                "GIT303",
+                "GIT BAS",
+                "GIT BAS IWD",
+                "GIT215"
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "iCourse"
+            ],
+            "topics": [
+                "career preparation", 
+                "project management"
+            ],
+            "focusArea": "all",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ]
+        },
+        {
+            "name": "Professional Portfolio Design and Presentation",
+            "term": 8,
+            "program": "GIT",
+            "number": 413,
+            "credits": 3,
+            "description": "Digital media portfolio design and production to include planning, audience analysis, content selection, authoring tools and formats, production, copyright considerations, marketing and delivery. Should be taken in the last semester of the program.",
+            "minimum-grade": "none",
+            "requirements": [
+                "applied Science (internet & web development) BAS major OR GIT303",
+                "senior standing",
+                "Pre- OR Corequisites: GIT480 OR visiting university student"
+            ],
+            "prerequisites": [
+                "GIT303",
+                "GIT BAS IWD"
+            ],
+            "semesters": [
+                "fall", 
+                "spring"
+            ],
+            "formats": [
+                "online", 
+                "campus", 
+                "iCourse"
+            ],
+            "topics": [
+                "design", 
+                "career preparation", 
+                "portfolio"
+            ],
+            "focusArea": "all",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ]
+        },
+        {
+            "name": "Senior Project",
+            "term": 7,
+            "program": "GIT",
+            "number": 480,
+            "credits": 3,
+            "description": "Capstone project experience refining skills in communication, research and information retrieval, critical analysis and criticism, and demonstrating technical competence in each student's area of study.",
+            "minimum-grade": "none",
+            "requirements": [
+                "minimum senior standing"
+            ],
+            "prerequisites": [
+
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus"
+            ],
+            "topics": [
+                "project management", 
+                "design"
+            ],
+            "focusArea": "all",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ]
+        }
+    ],
+    "core-non-git":[
+        {
+            "name": "The ASU Experience",
+            "term": 1,
+            "program": "ASU-TPS",
+            "number": 101,
+            "credits": 1,
+            "description": "Students will learn about ASU's mission as the New American University, the importance and benefits of an entrepreneurial approach to problem solving, solutions to sustainability challenges, and the importance of social embeddedness. Additionally, through various course discussions and assignments, students will examine the concept of academic integrity and its potential impact on their future, gain awareness of the value of engaging in research activities, and learn about taking an interdisciplinary perspective.",
+            "minimum-grade": "none",
+            "requirements": [
+                "Ira A. Fulton Schools of Engineering - The Polytechnic School student OR Visiting University Student"
+            ],
+            "prerequisites": [
+
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus"
+            ],
+            "topics": [
+                "Fulton Engineering", 
+                "student resources",
+                "time management"
+            ],
+            "focusArea": "all",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ]
+        },
+        {
+            "name": "Introduction to Human Systems Engineering",
+            "term": 1,
+            "program": "HSE",
+            "number": 101,
+            "credits": 3,
+            "description": "Introduces basic principles, methods and theories of psychology and applications to engineering problems relevant to human systems. Gives particular attention to the intersection of psychology and engineering. Students learn brain anatomy and physiology, sensation and perception, cognition, social systems and research methods so that they are able to design systems consistent with human capabilities and limitations.",
+            "minimum-grade": "none",
+            "requirements": [
+
+            ],
+            "prerequisites": [
+
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus"
+            ],
+            "topics": [
+                "psychology", 
+                "brain anatomy and physiology"
+            ],
+            "focusArea": "all",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                "SB"
+            ]
+        },
+        {
+            "name": "Understanding the Enterprise",
+            "term": 3,
+            "program": "TMC",
+            "number": 110,
+            "credits": 3,
+            "description": "Introduces essential functions required in technology-based and innovative enterprises and viewed in the context of their relationship to each other; examines the enterprise's role in society.",
+            "minimum-grade": "none",
+            "requirements": [
+
+            ],
+            "prerequisites": [
+
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus", 
+                "iCourse"
+            ],
+            "topics": [
+                "entrepreneurship", 
+                "swot analysis"
+            ],
+            "focusArea": "all",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ]
+        },
+        {
+            "name": "First-Year Composition",
+            "term": 1,
+            "program": "ENG",
+            "number": 101,
+            "credits": 3,
+            "description": "Discovers, organizes and develops ideas in relation to the writer's purpose, subject and audience. Emphasizes modes of written discourse and effective use of rhetorical principles.",
+            "minimum-grade": "C",
+            "requirements": [
+                "For students for whom English is not the native language, enroll in ENG107 (or WAC107)"
+            ],
+            "prerequisites": [
+
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus", 
+                "iCourse"
+            ],
+            "topics": [
+                "writing", 
+                "content organization", 
+                "topic organization"
+            ],
+            "focusArea": "all",
+            "equivalents": [
+                "ENG105",
+                "ENG107"
+            ],
+            "generalStudies": [
+                
+            ]
+        },
+        {
+            "name": "First-Year Composition",
+            "term": 2,
+            "program": "ENG",
+            "number": 102,
+            "credits": 3,
+            "description": "Critical reading and writing; emphasizes strategies of academic discourse. Research paper required.",
+            "minimum-grade": "C",
+            "requirements": [
+                "ENG101 OR ENG107 with C or better OR visiting university student"
+            ],
+            "prerequisites": [
+                "ENG101"
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus", 
+                "iCourse"
+            ],
+            "topics": [
+                "research", 
+                "writing", 
+                "content organization", 
+                "topic organization"
+            ],
+            "focusArea": "all",
+            "equivalents": [
+                "ENG108"
+            ],
+            "generalStudies": [
+                
+            ]
+        },
+        {
+            "name": "College Algebra",
+            "term": 2,
+            "program": "MAT",
+            "number": 117,
+            "credits": 3,
+            "description": "Linear functions, quadratic functions, general polynomial functions, rational functions, systems of linear equations, logarithmic and exponential functions.",
+            "minimum-grade": "C",
+            "requirements": [
+                "ALEKS score of 60 or higher OR visiting university student"
+            ],
+            "prerequisites": [
+
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus", 
+                "iCourse"
+            ],
+            "topics": [
+                "algebra", 
+                "functions"
+            ],
+            "focusArea": "all",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                "MA"
+            ]
+        },
+        {
+            "name": "Copyright and Intellectual Property in the Electronic Age",
+            "term": 5,
+            "program": "TWC",
+            "number": 451,
+            "credits": 3,
+            "description": "Explores issues related to copyright and intellectual property laws, with emphasis on electronic environment.",
+            "minimum-grade": "none",
+            "requirements": [
+                "English 102, 105, or 108 with C or better",
+                "minimum 45 hours",
+                "Credit only allowed for TWC451 OR TWC551 OR visiting university student"
+            ],
+            "prerequisites": [
+                "ENG102"
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "iCourse"
+            ],
+            "topics": [
+                "intellectual property", 
+                "copyright"
+            ],
+            "focusArea": "all",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ]
+        }
+    ],
+    "general-studies": [
+        {
+            "areas": [
+                "Humanities, Arts, & Design",
+                "Historical Awareness"
+            ],
+            "abbreviation": [
+                "HU",
+                "H"
+            ],
+            "term": 1,
+            "credits": 3
+        },
+        {
+            "areas": [
+                "Natural Science - Quantitative"
+            ],
+            "abbreviation": [
+                "SQ"
+            ],
+            "term": 2,
+            "credits": 4
+        },
+        {
+            "areas": [
+                "Natural Science - Quantitative",
+                "Natural Science - General"
+            ],
+            "abbreviation": [
+                "SQ"
+            ],
+            "term": 3,
+            "credits": 4
+        },
+        {
+            "areas": [
+                "Computer, Statistics, Quantitative Applications"
+            ],
+            "abbreviation": [
+                "CS"
+            ],
+            "term": 3,
+            "credits": 3
+        },
+        {
+            "areas": [
+                "Humanities, Art, & Design",
+                "Global Awareness"
+            ],
+            "abbreviation": [
+                "HU",
+                "G"
+            ],
+            "term": 4,
+            "credits": 3
+        },
+        {
+            "areas": [
+                "Literacy & Critical Inquiry"
+            ],
+            "abbreviation": [
+                "L"
+            ],
+            "term": 4,
+            "credits": 3
+        },
+        {
+            "areas": [
+                "Social-Behavioral Sciences",
+                "Cultural Diversity in the U.S."
+            ],
+            "abbreviation": [
+                "SB",
+                "C"
+            ],
+            "term": 4,
+            "credits": 3
+        },
+        {
+            "areas": [
+                "Upper Division Humanities, Arts, and Design",
+                "Upper Division Social-Behavioral Sciences"
+            ],
+            "abbreviation": [
+                "HU",
+                "SB"
+            ],
+            "term": 6,
+            "credits": 3
+        },
+        {
+            "areas": [
+                "Upper Division Literacy & Critical Inquiry"
+            ],
+            "abbreviation": [
+                "L"
+            ],
+            "term": 7,
+            "credits": 3
+        }
+    ],
+    "git-electives": [
+        {
+            "term": 8,
+            "hours": 3,
+            "suggested": "GIT484: Internship"
+        }
+    ],
+    "electives": [
+        {
+            "term": 2,
+            "hours": 3
+        },
+        {
+            "term": 4,
+            "hours": 3
+        }
+    ],
+    "focus-area-courses": [
+        {
+            "type": "primary",
+            "term": 5,
+            "credits": 3
+        },
+        {
+            "type": "secondary",
+            "term": 5,
+            "credits": 3
+        },
+        {
+            "type": "primary",
+            "term": 6,
+            "credits": 3
+        },
+        {
+            "type": "secondary",
+            "term": 6,
+            "credits": 3
+        },
+        {
+            "type": "upper division primary",
+            "term": 7,
+            "credits": 3
+        },
+        {
+            "type": "secondary",
+            "term": 7,
+            "credits": 3
+        },
+        {
+            "type": "upper division primary",
+            "term": 8,
+            "credits": 3
+        },
+        {
+            "type": "upper division secondary",
+            "term": 8,
+            "credits": 3
+        }
+    ],
+    "commercial-photo": [
+        {
+            "name": "Commercial Photography",
+            "term": 5,
+            "program": "GIT",
+            "number": 384,
+            "credits": 3,
+            "description": "Digital image capture, and output in a commercial studio emphasizing publishing workflow.",
+            "minimum-grade": "",
+            "requirements": [
+                "GIT 230 with C or better or Applied Science (Graphic Information Technology) BAS or Applied Science (Internet and Web Development) BAS major OR Visiting University Student"
+            ],
+            "prerequisites": [
+                "GIT230"
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus"
+            ],
+            "topics": [
+                "studio photography", 
+                "lighting",
+                "portrait styles",
+                "product photography"
+            ],
+            "focusArea": "all",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ]
+        },
+        {
+            "name": "Image Editing and Manipulation",
+            "term": 0,
+            "program": "GIT",
+            "number": 334,
+            "credits": 3,
+            "description": "Theory and application of advanced image editing and raster techniques for reproduction and dissemination.",
+            "minimum-grade": "none",
+            "requirements": [
+                "GIT 230 with C or better or Applied Science (Graphic Information Technology) BAS or Applied Science (Internet and Web Development) BAS major OR Visiting University Student"
+            ],
+            "prerequisites": [
+                "GIT230"
+            ],
+            "semesters": [
+                "fall", "spring", "summer"
+            ],
+            "formats": [
+                "online", "campus", "iCourse"
+            ],
+            "topics": [
+                "Adobe Photoshop", "image file editing and manipulation"
+            ],
+            "focusArea": "commercial photography",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ]
+        },
+        {
+            "name": "Color Reproduction Systems",
+            "term": 0,
+            "program": "GIT",
+            "number": 437,
+            "credits": 3,
+            "description": "Scientific analysis for the engineering of color reproduction systems and color models used in the graphics industry.",
+            "minimum-grade": "",
+            "requirements": [
+                "GIT 334; Credit is allowed for only GIT 437 or GIT 573"
+            ],
+            "prerequisites": [
+                "GIT334"
+            ],
+            "semesters": [
+                "spring"
+            ],
+            "formats": [
+                "online", "iCourse"
+            ],
+            "topics": [
+                "color reproduction systems", "color models"
+            ],
+            "focusArea": "commercial photo",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "term": 0,
+            "program": "",
+            "number": 0,
+            "credits": 3,
+            "description": "",
+            "minimum-grade": "",
+            "requirements": [
+
+            ],
+            "prerequisites": [
+
+            ],
+            "semesters": [
+                "fall", "spring", "summer"
+            ],
+            "formats": [
+                "online", "campus", "iCourse"
+            ],
+            "topics": [
+                "", ""
+            ],
+            "focusArea": "all",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "term": 0,
+            "program": "",
+            "number": 0,
+            "credits": 3,
+            "description": "",
+            "minimum-grade": "",
+            "requirements": [
+
+            ],
+            "prerequisites": [
+
+            ],
+            "semesters": [
+                "fall", "spring", "summer"
+            ],
+            "formats": [
+                "online", "campus", "iCourse"
+            ],
+            "topics": [
+                "", ""
+            ],
+            "focusArea": "all",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ]
+        }
+    ],
+    "commercial-print": [
+        {
+            "name": "Introduction to Commercial Print",
+            "term": 3,
+            "program": "GIT",
+            "number": 250,
+            "credits": 3,
+            "description": "Provides an overview of current print technology, a basic understanding of the print process and current workflows.",
+            "minimum-grade": "none",
+            "requirements": [
+                "Applied Science (Graphic Info Tech) BAS, Applied Science (Internet & Web Dev) BAS, Graphic Info Tech BS, Graphic Info Tech (Full-Stack Web Development) BS or Graphic Info Tech (User Experience) BS major OR Visiting University Student"
+            ],
+            "prerequisites": [
+                
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus"
+            ],
+            "topics": [
+                "print processes", 
+                "print design",
+                "print technologies"
+            ],
+            "focusArea": "Commercial Print",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ]
+        },
+        {
+            "name": "Digital publishing",
+            "term": 6,
+            "program": "GIT",
+            "number": 303,
+            "credits": 3,
+            "description": "Web and print publication design and production using industry-standard composition software, proofing, and output devices.",
+            "minimum-grade": "none",
+            "requirements": [
+                "GIT 230 with C or better or Applied Science (Internet and Web Development) BAS or Applied Science (Graphic Information Technology) BAS major OR Visiting University Student"
+            ],
+            "prerequisites": [
+                "GIT230"
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus", 
+                "iCourse"
+            ],
+            "topics": [
+                "page layout design", 
+                "packaging design",
+                "marketing material design for print",
+                "Adobe InDesign",
+                "print asset management"
+            ],
+            "focusArea": "Commercial Print",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ]
+        },
+        {
+            "name": "Printing Technology",
+            "term": 0,
+            "program": "GIT",
+            "number": 333,
+            "credits": 3,
+            "description": "Theory and application of sheet and web press technology for offset-lithography, flexography, screen process, and digital printing.",
+            "minimum-grade": "none",
+            "requirements": [
+                "GIT 250 OR Visiting University Student"
+            ],
+            "prerequisites": [
+                "GIT250"
+            ],
+            "semesters": [
+                "fall", 
+                "spring"
+            ],
+            "formats": [
+                "online", 
+                "iCourse"
+            ],
+            "topics": [
+                "commercial print design", "print technology"
+            ],
+            "focusArea": "Commercial Print",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "term": 0,
+            "program": "",
+            "number": 0,
+            "credits": 3,
+            "description": "",
+            "minimum-grade": "",
+            "requirements": [
+
+            ],
+            "prerequisites": [
+
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus", 
+                "iCourse"
+            ],
+            "topics": [
+                "", 
+                ""
+            ],
+            "focusArea": "Commercial Print",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "term": 0,
+            "program": "",
+            "number": 0,
+            "credits": 3,
+            "description": "",
+            "minimum-grade": "",
+            "requirements": [
+
+            ],
+            "prerequisites": [
+
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus", 
+                "iCourse"
+            ],
+            "topics": [
+                "", 
+                ""
+            ],
+            "focusArea": "Commercial Print",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ]
+        }
+    ],
+    "commercial-video": [
+        {
+            "name": "Digital VIdeo Techniques",
+            "term": 5,
+            "program": "GIT",
+            "number": 315,
+            "credits": 3,
+            "description": "Covers video production, including planning, pre-production, production, post-production and online video technologies and how video is an integral part of the graphic information industry. Concentrates on commercial and client-driven video production.",
+            "minimum-grade": "",
+            "prerequisites": [
+                "Applied Science (Graphic Information Technology) BAS major or Applied Science (Internet and Web Development) BAS major or GIT 230 with C or better OR Visiting University Student"
+            ],
+            "semesters": [
+                "fall", "spring", "summer"
+            ],
+            "formats": [
+                "online", "campus", "iCourse"
+            ],
+            "topics": [
+                "", ""
+            ],
+            "focusArea": "Commercial Video",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "term": 0,
+            "program": "",
+            "number": 0,
+            "credits": 3,
+            "description": "",
+            "minimum-grade": "",
+            "requirements": [
+
+            ],
+            "prerequisites": [
+
+            ],
+            "semesters": [
+                "fall", "spring", "summer"
+            ],
+            "formats": [
+                "online", "campus", "iCourse"
+            ],
+            "topics": [
+                "", ""
+            ],
+            "focusArea": "all",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ]
+        }
+    ],
+    "front-end-web-dev": [
+        {
+            "name": "Web Content Design",
+            "term": 0,
+            "program": "GIT",
+            "number": 337,
+            "credits": 3,
+            "description": "User-centered design principles for visual content on the World Wide Web with emphasis on content strategy, user experience, coding and interactivity.",
+            "minimum-grade": "none",
+            "requirements": [
+                "GIT 215 with C or better; GIT 230 OR Applied Science (Graphic Information Technology) BAS or Applied Science (Internet and Web Development) BAS major; Credit is allowed for only GIT 310 or GIT 337 OR Visiting University Student"
+            ],
+            "prerequisites": [
+                "GIT215"
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus", 
+                "iCourse"
+            ],
+            "topics": [
+                "CSS", 
+                "web development", 
+                "web design"
+            ],
+            "focusArea": "Front-End Web Development",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ]
+        },
+        {
+            "name": "Web Site Design and Internet/Web Technologies",
+            "term": 0,
+            "program": "GIT",
+            "number": 414,
+            "credits": 3,
+            "description": "Design, authoring, standards, protocols, tools and techniques for development for different Web-based technologies.",
+            "minimum-grade": "none",
+            "requirements": [
+                "GIT 310 or 337 OR Visiting University Student"
+            ],
+            "prerequisites": [
+                "GIT337"
+            ],
+            "semesters": [
+                "fall", 
+                "spring"
+            ],
+            "formats": [
+                "online", 
+                "campus"
+            ],
+            "topics": [
+                "responsive web development", 
+                "accessible web development", 
+                "search engine optimization", 
+                "web site testing"
+            ],
+            "focusArea": "Front-End Web Development",
+            "equivalents": [
+                
+            ]
+        },
+        {
+            "name": "Advanced Web Markup and Scripting",
+            "term": 0,
+            "program": "GIT",
+            "number": 417,
+            "credits": 3,
+            "description": "Industry-standard programming languages and techniques to add user interactivity to graphic information Web sites and Web applications.",
+            "minimum-grade": "none",
+            "requirements": [
+                "GIT 310 or 337 OR Visiting University Student"
+            ],
+            "prerequisites": [
+                "GIT337"
+            ],
+            "semesters": [
+                "fall", 
+                "spring",
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus", 
+                "iCourse"
+            ],
+            "topics": [
+                "JavaScript", 
+                "DOM manipulation",
+                "JavaScript syntax",
+                "Introductory JavaScript"
+            ],
+            "focusArea": "Front-End Web Development",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ]
+        },
+        {
+            "name": "Multimedia Authoring, Scripting, and Production",
+            "term": 0,
+            "program": "GIT",
+            "number": 418,
+            "credits": 3,
+            "description": "Extended application of industry-standard scripting languages and techniques to add user interactivity to graphic information websites and web applications.",
+            "minimum-grade": "none",
+            "requirements": [
+                "GIT 417 with C or better OR Visiting University Student"
+            ],
+            "prerequisites": [
+                "GIT417"
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus", 
+                "iCourse"
+            ],
+            "topics": [
+                "Intermediate JavaScript", 
+                "Classes",
+                "Ajax",
+                "calling APIs",
+                "Postman",
+                "WebSockets",
+                "web storage",
+                "jQuery",
+                "jQuery UI"
+            ],
+            "focusArea": "Front-End Web Development",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "term": 0,
+            "program": "",
+            "number": 0,
+            "credits": 3,
+            "description": "",
+            "minimum-grade": "",
+            "requirements": [
+
+            ],
+            "prerequisites": [
+
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus", 
+                "iCourse"
+            ],
+            "topics": [
+                "", 
+                ""
+            ],
+            "focusArea": "Front-End Web Development",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "term": 0,
+            "program": "",
+            "number": 0,
+            "credits": 3,
+            "description": "",
+            "minimum-grade": "",
+            "requirements": [
+
+            ],
+            "prerequisites": [
+
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus", 
+                "iCourse"
+            ],
+            "topics": [
+                "", 
+                ""
+            ],
+            "focusArea": "Front-End Web Development",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "term": 0,
+            "program": "",
+            "number": 0,
+            "credits": 3,
+            "description": "",
+            "minimum-grade": "",
+            "requirements": [
+
+            ],
+            "prerequisites": [
+
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus", 
+                "iCourse"
+            ],
+            "topics": [
+                "", 
+                ""
+            ],
+            "focusArea": "Front-End Web Development",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "term": 0,
+            "program": "",
+            "number": 0,
+            "credits": 3,
+            "description": "",
+            "minimum-grade": "",
+            "requirements": [
+
+            ],
+            "prerequisites": [
+
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus", 
+                "iCourse"
+            ],
+            "topics": [
+                "", 
+                ""
+            ],
+            "focusArea": "Front-End Web Development",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ]
+        }
+    ],
+    "interaction-design": [
+        {
+            "name": "Information Design and Usability",
+            "term": 0,
+            "program": "GIT",
+            "number": 340,
+            "credits": 3,
+            "description": "Design and technology solutions for increasing Website usability and methods of organizing information to improve the user experience.",
+            "minimum-grade": "none",
+            "requirements": [
+                "minimum junior standing OR Visiting University Student"
+            ],
+            "prerequisites": [
+
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus", 
+                "iCourse"
+            ],
+            "topics": [
+                "usability", 
+                "user research",
+                "information architecture",
+                "user testing",
+                "prototyping",
+                "web design"
+            ],
+            "focusArea": "Interaction Design",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ]
+        },
+        {
+            "name": "Cross-Media Design",
+            "term": 0,
+            "program": "GIT",
+            "number": 350,
+            "credits": 3,
+            "description": "Strengthens design elements and principles. Explores, creates and critiques cross-media design work for print and digital outputs.",
+            "minimum-grade": "none",
+            "requirements": [
+                "GIT 303; Credit is allowed for only GIT 350 or GIT 494 (Cross-Media Design Solutions) OR Visiting University Student"
+            ],
+            "prerequisites": [
+                "GIT303"
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus", 
+                "iCourse"
+            ],
+            "topics": [
+                "interaction design", 
+                "Adobe Xd",
+                "Figma"
+            ],
+            "focusArea": "Interaction Design",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ]
+        },
+        {
+            "name": "New Media and Internet Technologies",
+            "term": 0,
+            "program": "GIT",
+            "number": 402,
+            "credits": 3,
+            "description": "Project-based exploration of new media Internet technologies from a graphic technology prospective. Emphasizes how, why, and when new media can be used to enhance a Web site and the user's experience.",
+            "minimum-grade": "none",
+            "requirements": [
+                "minimum junior standing; Credit is allowed for only GIT 402 or GIT 502"
+            ],
+            "prerequisites": [
+
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus", 
+                "iCourse"
+            ],
+            "topics": [
+                "", 
+                ""
+            ],
+            "focusArea": "Interaction Design",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ]
+        },
+        {
+            "name": "Website and E-Commerce Strategies",
+            "term": 0,
+            "program": "GIT",
+            "number": 435,
+            "credits": 3,
+            "description": "E-Commerce site management, marketing analytics and e-commerce business models.",
+            "minimum-grade": "none",
+            "requirements": [
+                "GIT 414; Credit is allowed for only GIT 435 or GIT 535 or GIT 598 (Website & E-Commerce Strategy) OR Visiting University Student"
+            ],
+            "prerequisites": [
+                "GIT414"
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus", 
+                "iCourse"
+            ],
+            "topics": [
+                "e-commerce design", 
+                "e-commerce development",
+                "information architecture"
+            ],
+            "focusArea": "Interaction Design",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ]
+        }
+    ],
+    "motion-graphics": [
+        {
+            "name": "Multimedia Design, Planning, and Storyboards",
+            "term": 6,
+            "program": "GIT",
+            "number": 314,
+            "credits": 3,
+            "description": "The creative process of generating ideas, conceptualizing projects, planning, designing, story boarding, and presenting interactive multimedia products.",
+            "minimum-grade": "none",
+            "requirements": [
+                "GIT 230 with C or better; minimum junior standing OR Applied Science (Graphic Information Technology) BAS or Applied Science (Internet and Web Development) BAS major OR Visiting University Student"
+            ],
+            "prerequisites": [
+                "GIT230"
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus", 
+                "iCourse"
+            ],
+            "topics": [
+                "Adobe After Effects", 
+                "motion graphics"
+            ],
+            "focusArea": "Motion Graphics",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "term": 0,
+            "program": "",
+            "number": 0,
+            "credits": 3,
+            "description": "",
+            "minimum-grade": "",
+            "requirements": [
+
+            ],
+            "prerequisites": [
+
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus", 
+                "iCourse"
+            ],
+            "topics": [
+                "", 
+                ""
+            ],
+            "focusArea": "Motion Graphics",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "term": 0,
+            "program": "",
+            "number": 0,
+            "credits": 3,
+            "description": "",
+            "minimum-grade": "",
+            "requirements": [
+
+            ],
+            "prerequisites": [
+
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus", 
+                "iCourse"
+            ],
+            "topics": [
+                "", 
+                ""
+            ],
+            "focusArea": "Motion Graphics",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "term": 0,
+            "program": "",
+            "number": 0,
+            "credits": 3,
+            "description": "",
+            "minimum-grade": "",
+            "requirements": [
+
+            ],
+            "prerequisites": [
+
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus", 
+                "iCourse"
+            ],
+            "topics": [
+                "", 
+                ""
+            ],
+            "focusArea": "Motion Graphics",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ]
+        }
+    ],
+    "user-experience": [
+        {
+            "name": "",
+            "term": 0,
+            "program": "",
+            "number": 0,
+            "credits": 3,
+            "description": "",
+            "minimum-grade": "",
+            "requirements": [
+
+            ],
+            "prerequisites": [
+
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus", 
+                "iCourse"
+            ],
+            "topics": [
+                "", 
+                ""
+            ],
+            "focusArea": "User Experience",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ]
+        }
+    ]
+}
