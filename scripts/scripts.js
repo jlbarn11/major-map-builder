@@ -69,7 +69,7 @@ $(function(){
 
     // get the data stored in our local JSON file so we can use it to display information to the user and create the major map builder
     // $.getJSON("scripts/courses.json", parseJSONfile(data));
-    $.getJSON("courses.json")
+    $.getJSON("scripts/courses.json")
     .done(console.log(data))
     .fail(console.log("I have no idea what is happening"));
 
