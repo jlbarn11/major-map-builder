@@ -361,7 +361,7 @@ main > div, main > section{
 /* Paragraph Styles */
 p{
     width: 100%;
-    max-width: 65ch;
+    max-width: 75ch;
     margin: 0 auto;
     padding: 16px 0;
     line-height: 1.4;
@@ -578,6 +578,7 @@ h3.ui-accordion-header.ui-corner-top.ui-state-default.ui-accordion-header-active
     border-radius: 32px;
     text-decoration: none;
     transition: all 300ms;
+    border: none;
 }
 
 /* For the Button to Subscribe on Hover */
