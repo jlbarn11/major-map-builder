@@ -7,112 +7,14 @@
         "Interaction Design",
         "Motion Graphics"
     ],
-    "coreGit": [
-        {
-            "name": "Graphic Communications",
-            "term": 1,
-            "program": "GIT",
-            "number": 135,
-            "credits": 3,
-            "description": "Processes involved in design, asset generation, transmission, production and evaluation of visual content.",
-            "minimum-grade": "C",
-            "requirements": [
-                
-            ],
-            "prerequisites": [
-
-            ],
-            "semesters": [
-                "fall",
-                "spring", 
-                "summer"
-            ],
-            "formats": [
-                "online", 
-                "iCourse"
-            ],
-            "topics": [
-                "design"
-            ],
-            "focusArea": "Interaction Design",
-            "equivalents": [
-                
-            ],
-            "generalStudies": [
-
-            ]
-        },
-        {
-            "name": "Creative Thinking and Design Visualization",
-            "term": 1,
-            "program": "GIT",
-            "number": 210,
-            "credits": 3,
-            "description": "Fundamental methods, concepts and techniques of creative thinking, ideation and problem solving, including communication and societal influences. Examines drawing and design visualization, from sketching to data graphics.",
-            "minimum-grade": "none",
-            "requirements": [
-                
-            ],
-            "prerequisites": [
-
-            ],
-            "semesters": [
-                "fall", 
-                "spring", 
-                "summer"
-            ],
-            "formats": [
-                "online", 
-                "iCourse"
-            ],
-            "topics": [
-                "design", 
-                "creative thinking"
-            ],
-            "focusArea": "Interaction Design",
-            "equivalents": [
-                
-            ],
-            "generalStudies": [
-                
-            ]
-        },
-        {
-            "name": "Digital Illustration in Publishing",
-            "term": 2,
-            "program": "GIT",
-            "number": 230,
-            "credits": 3,
-            "description": "Raster and vector illustration in publishing.",
-            "minimum-grade": "C",
-            "requirements": [
-                "MAT117 with C or better"
-            ],
-            "prerequisites": [
-                "MAT117"
-            ],
-            "semesters": [
-                "fall", 
-                "spring", 
-                "summer"
-            ],
-            "formats": [
-                "online", 
-                "iCourse"
-            ],
-            "topics": [
-                "design", 
-                "Adobe Illustrator", 
-                "Adobe Photoshop"
-            ],
-            "focusArea": "Interaction Design",
-            "equivalents": [
-                
-            ],
-            "generalStudies": [
-                
-            ]
-        },
+    "degrees": [
+        "git-bas",
+        "git-bas-iwd",
+        "git-bs",
+        "git-bs-fs",
+        "git-ux"
+    ],
+    "coreGitAll": [
         {
             "name": "Graphic Industry Business Practices",
             "term": 8,
@@ -146,6 +48,13 @@
             ],
             "generalStudies": [
                 
+            ],
+            "degreeAndTerm": [
+                {"git-bas": 0},
+                {"git-bas-iwd": 0},
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0}
             ]
         },
         {
@@ -187,6 +96,13 @@
             ],
             "generalStudies": [
                 
+            ],
+            "degreeAndTerm": [
+                {"git-bas": 0},
+                {"git-bas-iwd": 0},
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0}
             ]
         },
         {
@@ -226,6 +142,13 @@
             ],
             "generalStudies": [
                 
+            ],
+            "degreeAndTerm": [
+                {"git-bas": 0},
+                {"git-bas-iwd": 0},
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0}
             ]
         },
         {
@@ -261,10 +184,351 @@
             ],
             "generalStudies": [
                 
+            ],
+            "degreeAndTerm": [
+                {"git-bas": 0},
+                {"git-bas-iwd": 0},
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0}
             ]
         }
     ],
-    "coreNonGit":[
+    "coreGitBs": [
+        {
+            "name": "Graphic Communications",
+            "term": 1,
+            "program": "GIT",
+            "number": 135,
+            "credits": 3,
+            "description": "Processes involved in design, asset generation, transmission, production and evaluation of visual content.",
+            "minimum-grade": "C",
+            "requirements": [
+                
+            ],
+            "prerequisites": [
+
+            ],
+            "semesters": [
+                "fall",
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "iCourse"
+            ],
+            "topics": [
+                "design"
+            ],
+            "focusArea": "Interaction Design",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+
+            ],
+            "degreeAndTerm": [
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0}
+            ]
+        },
+        {
+            "name": "Creative Thinking and Design Visualization",
+            "term": 1,
+            "program": "GIT",
+            "number": 210,
+            "credits": 3,
+            "description": "Fundamental methods, concepts and techniques of creative thinking, ideation and problem solving, including communication and societal influences. Examines drawing and design visualization, from sketching to data graphics.",
+            "minimum-grade": "none",
+            "requirements": [
+                
+            ],
+            "prerequisites": [
+
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "iCourse"
+            ],
+            "topics": [
+                "design", 
+                "creative thinking"
+            ],
+            "focusArea": "Interaction Design",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ],
+            "degreeAndTerm": [
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0}
+            ]
+        },
+        {
+            "name": "Digital Illustration in Publishing",
+            "term": 2,
+            "program": "GIT",
+            "number": 230,
+            "credits": 3,
+            "description": "Raster and vector illustration in publishing.",
+            "minimum-grade": "C",
+            "requirements": [
+                "MAT117 with C or better"
+            ],
+            "prerequisites": [
+                "MAT117"
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "iCourse"
+            ],
+            "topics": [
+                "design", 
+                "Adobe Illustrator", 
+                "Adobe Photoshop"
+            ],
+            "focusArea": "Interaction Design",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ],
+            "degreeAndTerm": [
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0}
+            ]
+        },
+        {
+            "name": "Introduction to Commercial Print",
+            "term": 3,
+            "program": "GIT",
+            "number": 250,
+            "credits": 3,
+            "description": "Provides an overview of current print technology, a basic understanding of the print process and current workflows.",
+            "minimum-grade": "none",
+            "requirements": [
+                "Applied Science (Graphic Info Tech) BAS, Applied Science (Internet & Web Dev) BAS, Graphic Info Tech BS, Graphic Info Tech (Full-Stack Web Development) BS or Graphic Info Tech (User Experience) BS major OR Visiting University Student"
+            ],
+            "prerequisites": [
+                
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus"
+            ],
+            "topics": [
+                "print processes", 
+                "print design",
+                "print technologies"
+            ],
+            "focusArea": "Commercial Print",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ],
+            "degrees": [
+                "git-bs",
+                "git-bs-fs",
+                "git-ux"
+            ],
+            "degreeAndTerm": [
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0}
+            ]
+        },
+        {
+            "name": "Digital publishing",
+            "term": 6,
+            "program": "GIT",
+            "number": 303,
+            "credits": 3,
+            "description": "Web and print publication design and production using industry-standard composition software, proofing, and output devices.",
+            "minimum-grade": "none",
+            "requirements": [
+                "GIT 230 with C or better or Applied Science (Internet and Web Development) BAS or Applied Science (Graphic Information Technology) BAS major OR Visiting University Student"
+            ],
+            "prerequisites": [
+                "GIT230"
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus", 
+                "iCourse"
+            ],
+            "topics": [
+                "page layout design", 
+                "packaging design",
+                "marketing material design for print",
+                "Adobe InDesign",
+                "print asset management"
+            ],
+            "focusArea": "Commercial Print",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ],
+            "degreeAndTerm": [
+                {"git-bas": 0},
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0}
+            ]
+        },
+        {
+            "name": "Multimedia Design, Planning, and Storyboards",
+            "term": 6,
+            "program": "GIT",
+            "number": 314,
+            "credits": 3,
+            "description": "The creative process of generating ideas, conceptualizing projects, planning, designing, story boarding, and presenting interactive multimedia products.",
+            "minimum-grade": "none",
+            "requirements": [
+                "GIT 230 with C or better; minimum junior standing OR Applied Science (Graphic Information Technology) BAS or Applied Science (Internet and Web Development) BAS major OR Visiting University Student"
+            ],
+            "prerequisites": [
+                "GIT230"
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus", 
+                "iCourse"
+            ],
+            "topics": [
+                "Adobe After Effects", 
+                "motion graphics"
+            ],
+            "focusArea": "Motion Graphics",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ],
+            "degreeAndTerm": [
+                {"git-bas": 0},
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0}
+            ]
+        },{
+            "name": "Digital VIdeo Techniques",
+            "term": 5,
+            "program": "GIT",
+            "number": 315,
+            "credits": 3,
+            "description": "Covers video production, including planning, pre-production, production, post-production and online video technologies and how video is an integral part of the graphic information industry. Concentrates on commercial and client-driven video production.",
+            "minimum-grade": "",
+            "prerequisites": [
+                "Applied Science (Graphic Information Technology) BAS major or Applied Science (Internet and Web Development) BAS major or GIT 230 with C or better OR Visiting University Student"
+            ],
+            "semesters": [
+                "fall", "spring", "summer"
+            ],
+            "formats": [
+                "online", "campus", "iCourse"
+            ],
+            "topics": [
+                "", ""
+            ],
+            "focusArea": "Commercial Video",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ],
+            "degreeAndTerm": [
+                {"git-bas": 0},
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0}
+            ]
+        },
+        {
+            "name": "Commercial Photography",
+            "term": 5,
+            "program": "GIT",
+            "number": 384,
+            "credits": 3,
+            "description": "Digital image capture, and output in a commercial studio emphasizing publishing workflow.",
+            "minimum-grade": "",
+            "requirements": [
+                "GIT 230 with C or better or Applied Science (Graphic Information Technology) BAS or Applied Science (Internet and Web Development) BAS major OR Visiting University Student"
+            ],
+            "prerequisites": [
+                "GIT230"
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus"
+            ],
+            "topics": [
+                "studio photography", 
+                "lighting",
+                "portrait styles",
+                "product photography"
+            ],
+            "focusArea": "all",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ],
+            "degreeAndTerm": [
+                {"git-bas": 0},
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0}
+            ]
+        }
+    ],
+    "coreNonGitAll": [
+
+    ],
+    "coreNonGitBs":[
         {
             "name": "The ASU Experience",
             "term": 1,
@@ -299,6 +563,11 @@
             ],
             "generalStudies": [
                 
+            ],
+            "degreeAndTerm": [
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0}
             ]
         },
         {
@@ -334,6 +603,16 @@
             ],
             "generalStudies": [
                 "SB"
+            ],
+            "degrees": [
+                "git-bs",
+                "git-bs-fs",
+                "git-ux"
+            ],
+            "degreeAndTerm": [
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0}
             ]
         },
         {
@@ -370,6 +649,11 @@
             ],
             "generalStudies": [
                 
+            ],
+            "degreeAndTerm": [
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0}
             ]
         },
         {
@@ -408,6 +692,11 @@
             ],
             "generalStudies": [
                 
+            ],
+            "degreeAndTerm": [
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0}
             ]
         },
         {
@@ -446,6 +735,11 @@
             ],
             "generalStudies": [
                 
+            ],
+            "degreeAndTerm": [
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0}
             ]
         },
         {
@@ -482,6 +776,11 @@
             ],
             "generalStudies": [
                 "MA"
+            ],
+            "degreeAndTerm": [
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0}
             ]
         },
         {
@@ -519,10 +818,15 @@
             ],
             "generalStudies": [
                 
+            ],
+            "degreeAndTerm": [
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0}
             ]
         }
     ],
-    "generalStudies": [
+    "generalStudiesBs": [
         {
             "areas": [
                 "Humanities, Arts, & Design",
@@ -532,6 +836,7 @@
                 "HU",
                 "H"
             ],
+            "division": "lower",
             "term": 1,
             "credits": 3
         },
@@ -542,6 +847,7 @@
             "abbreviation": [
                 "SQ"
             ],
+            "division": "lower",
             "term": 2,
             "credits": 4
         },
@@ -553,6 +859,7 @@
             "abbreviation": [
                 "SQ"
             ],
+            "division": "lower",
             "term": 3,
             "credits": 4
         },
@@ -563,6 +870,7 @@
             "abbreviation": [
                 "CS"
             ],
+            "division": "lower",
             "term": 3,
             "credits": 3
         },
@@ -575,6 +883,7 @@
                 "HU",
                 "G"
             ],
+            "division": "lower",
             "term": 4,
             "credits": 3
         },
@@ -585,6 +894,7 @@
             "abbreviation": [
                 "L"
             ],
+            "division": "lower",
             "term": 4,
             "credits": 3
         },
@@ -597,40 +907,46 @@
                 "SB",
                 "C"
             ],
+            "division": "lower",
             "term": 4,
             "credits": 3
         },
         {
             "areas": [
-                "Upper Division Humanities, Arts, and Design",
-                "Upper Division Social-Behavioral Sciences"
+                "Humanities, Arts, and Design",
+                "Social-Behavioral Sciences"
             ],
             "abbreviation": [
                 "HU",
                 "SB"
             ],
+            "division": "upper",
             "term": 6,
             "credits": 3
         },
         {
             "areas": [
-                "Upper Division Literacy & Critical Inquiry"
+                "Literacy & Critical Inquiry"
             ],
             "abbreviation": [
                 "L"
             ],
+            "division": "upper",
             "term": 7,
             "credits": 3
         }
     ],
-    "gitElectives": [
+    "coreGitBas": [
+
+    ],
+    "gitElectivesBs": [
         {
             "term": 8,
             "hours": 3,
             "suggested": "GIT484: Internship"
         }
     ],
-    "electives": [
+    "electivesBs": [
         {
             "term": 2,
             "hours": 3
@@ -640,7 +956,7 @@
             "hours": 3
         }
     ],
-    "focusAreaCourses": [
+    "focusAreaCoursesBs": [
         {
             "type": "primary",
             "term": 5,
@@ -684,43 +1000,6 @@
     ],
     "commercialPhoto": [
         {
-            "name": "Commercial Photography",
-            "term": 5,
-            "program": "GIT",
-            "number": 384,
-            "credits": 3,
-            "description": "Digital image capture, and output in a commercial studio emphasizing publishing workflow.",
-            "minimum-grade": "",
-            "requirements": [
-                "GIT 230 with C or better or Applied Science (Graphic Information Technology) BAS or Applied Science (Internet and Web Development) BAS major OR Visiting University Student"
-            ],
-            "prerequisites": [
-                "GIT230"
-            ],
-            "semesters": [
-                "fall", 
-                "spring", 
-                "summer"
-            ],
-            "formats": [
-                "online", 
-                "campus"
-            ],
-            "topics": [
-                "studio photography", 
-                "lighting",
-                "portrait styles",
-                "product photography"
-            ],
-            "focusArea": "all",
-            "equivalents": [
-                
-            ],
-            "generalStudies": [
-                
-            ]
-        },
-        {
             "name": "Image Editing and Manipulation",
             "term": 0,
             "program": "GIT",
@@ -749,6 +1028,9 @@
             ],
             "generalStudies": [
                 
+            ],
+            "degreeAndTerm": [
+                {"git-bas-iwd": 0}
             ]
         },
         {
@@ -780,6 +1062,13 @@
             ],
             "generalStudies": [
                 
+            ],
+            "degreeAndTerm": [
+                {"git-bas": 0},
+                {"git-bas-iwd": 0},
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0}
             ]
         },
         {
@@ -811,6 +1100,13 @@
             ],
             "generalStudies": [
                 
+            ],
+            "degreeAndTerm": [
+                {"git-bas": 0},
+                {"git-bas-iwd": 0},
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0}
             ]
         },
         {
@@ -842,85 +1138,17 @@
             ],
             "generalStudies": [
                 
+            ],
+            "degreeAndTerm": [
+                {"git-bas": 0},
+                {"git-bas-iwd": 0},
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0}
             ]
         }
     ],
     "commercialPrint": [
-        {
-            "name": "Introduction to Commercial Print",
-            "term": 3,
-            "program": "GIT",
-            "number": 250,
-            "credits": 3,
-            "description": "Provides an overview of current print technology, a basic understanding of the print process and current workflows.",
-            "minimum-grade": "none",
-            "requirements": [
-                "Applied Science (Graphic Info Tech) BAS, Applied Science (Internet & Web Dev) BAS, Graphic Info Tech BS, Graphic Info Tech (Full-Stack Web Development) BS or Graphic Info Tech (User Experience) BS major OR Visiting University Student"
-            ],
-            "prerequisites": [
-                
-            ],
-            "semesters": [
-                "fall", 
-                "spring", 
-                "summer"
-            ],
-            "formats": [
-                "online", 
-                "campus"
-            ],
-            "topics": [
-                "print processes", 
-                "print design",
-                "print technologies"
-            ],
-            "focusArea": "Commercial Print",
-            "equivalents": [
-                
-            ],
-            "generalStudies": [
-                
-            ]
-        },
-        {
-            "name": "Digital publishing",
-            "term": 6,
-            "program": "GIT",
-            "number": 303,
-            "credits": 3,
-            "description": "Web and print publication design and production using industry-standard composition software, proofing, and output devices.",
-            "minimum-grade": "none",
-            "requirements": [
-                "GIT 230 with C or better or Applied Science (Internet and Web Development) BAS or Applied Science (Graphic Information Technology) BAS major OR Visiting University Student"
-            ],
-            "prerequisites": [
-                "GIT230"
-            ],
-            "semesters": [
-                "fall", 
-                "spring", 
-                "summer"
-            ],
-            "formats": [
-                "online", 
-                "campus", 
-                "iCourse"
-            ],
-            "topics": [
-                "page layout design", 
-                "packaging design",
-                "marketing material design for print",
-                "Adobe InDesign",
-                "print asset management"
-            ],
-            "focusArea": "Commercial Print",
-            "equivalents": [
-                
-            ],
-            "generalStudies": [
-                
-            ]
-        },
         {
             "name": "Printing Technology",
             "term": 0,
@@ -952,6 +1180,13 @@
             ],
             "generalStudies": [
                 
+            ],
+            "degreeAndTerm": [
+                {"git-bas": 0},
+                {"git-bas-iwd": 0},
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0}
             ]
         },
         {
@@ -988,6 +1223,13 @@
             ],
             "generalStudies": [
                 
+            ],
+            "degreeAndTerm": [
+                {"git-bas": 0},
+                {"git-bas-iwd": 0},
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0}
             ]
         },
         {
@@ -1024,38 +1266,17 @@
             ],
             "generalStudies": [
                 
+            ],
+            "degreeAndTerm": [
+                {"git-bas": 0},
+                {"git-bas-iwd": 0},
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0}
             ]
         }
     ],
     "commercialVideo": [
-        {
-            "name": "Digital VIdeo Techniques",
-            "term": 5,
-            "program": "GIT",
-            "number": 315,
-            "credits": 3,
-            "description": "Covers video production, including planning, pre-production, production, post-production and online video technologies and how video is an integral part of the graphic information industry. Concentrates on commercial and client-driven video production.",
-            "minimum-grade": "",
-            "prerequisites": [
-                "Applied Science (Graphic Information Technology) BAS major or Applied Science (Internet and Web Development) BAS major or GIT 230 with C or better OR Visiting University Student"
-            ],
-            "semesters": [
-                "fall", "spring", "summer"
-            ],
-            "formats": [
-                "online", "campus", "iCourse"
-            ],
-            "topics": [
-                "", ""
-            ],
-            "focusArea": "Commercial Video",
-            "equivalents": [
-                
-            ],
-            "generalStudies": [
-                
-            ]
-        },
         {
             "name": "",
             "term": 0,
@@ -1085,6 +1306,13 @@
             ],
             "generalStudies": [
                 
+            ],
+            "degreeAndTerm": [
+                {"git-bas": 0},
+                {"git-bas-iwd": 0},
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0}
             ]
         }
     ],
@@ -1124,6 +1352,11 @@
             ],
             "generalStudies": [
                 
+            ],
+            "degreeAndTerm": [
+                {"git-bas-iwd": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0}
             ]
         },
         {
@@ -1157,6 +1390,11 @@
             "focusArea": "Front-End Web Development",
             "equivalents": [
                 
+            ],
+            "degreeAndTerm": [
+                {"git-bas-iwd": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0}
             ]
         },
         {
@@ -1195,6 +1433,10 @@
             ],
             "generalStudies": [
                 
+            ],
+            "degreeAndTerm": [
+                {"git-bas-iwd": 0},
+                {"git-bs-fs": 0}
             ]
         },
         {
@@ -1238,6 +1480,12 @@
             ],
             "generalStudies": [
                 
+            ],
+            "degrees": [
+                "git-bs-fs"
+            ],
+            "degreeAndTerm": [
+                {"git-bs-fs": 0}
             ]
         },
         {
@@ -1274,6 +1522,13 @@
             ],
             "generalStudies": [
                 
+            ],
+            "degreeAndTerm": [
+                {"git-bas": 0},
+                {"git-bas-iwd": 0},
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0}
             ]
         },
         {
@@ -1310,6 +1565,13 @@
             ],
             "generalStudies": [
                 
+            ],
+            "degreeAndTerm": [
+                {"git-bas": 0},
+                {"git-bas-iwd": 0},
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0}
             ]
         },
         {
@@ -1346,6 +1608,13 @@
             ],
             "generalStudies": [
                 
+            ],
+            "degreeAndTerm": [
+                {"git-bas": 0},
+                {"git-bas-iwd": 0},
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0}
             ]
         },
         {
@@ -1382,6 +1651,13 @@
             ],
             "generalStudies": [
                 
+            ],
+            "degreeAndTerm": [
+                {"git-bas": 0},
+                {"git-bas-iwd": 0},
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0}
             ]
         }
     ],
@@ -1424,6 +1700,10 @@
             ],
             "generalStudies": [
                 
+            ],
+            "degreeAndTerm": [
+                {"git-bas-iwd": 0},
+                {"git-ux": 0}
             ]
         },
         {
@@ -1461,6 +1741,9 @@
             ],
             "generalStudies": [
                 
+            ],
+            "degreeAndTerm": [
+
             ]
         },
         {
@@ -1497,6 +1780,9 @@
             ],
             "generalStudies": [
                 
+            ],
+            "degreeAndTerm": [
+
             ]
         },
         {
@@ -1534,23 +1820,26 @@
             ],
             "generalStudies": [
                 
+            ],
+            "degreeAndTerm": [
+                {"git-bas-iwd": 0}
             ]
         }
     ],
     "motionGraphics": [
         {
-            "name": "Multimedia Design, Planning, and Storyboards",
-            "term": 6,
-            "program": "GIT",
-            "number": 314,
+            "name": "",
+            "term": 0,
+            "program": "",
+            "number": 0,
             "credits": 3,
-            "description": "The creative process of generating ideas, conceptualizing projects, planning, designing, story boarding, and presenting interactive multimedia products.",
-            "minimum-grade": "none",
+            "description": "",
+            "minimum-grade": "",
             "requirements": [
-                "GIT 230 with C or better; minimum junior standing OR Applied Science (Graphic Information Technology) BAS or Applied Science (Internet and Web Development) BAS major OR Visiting University Student"
+
             ],
             "prerequisites": [
-                "GIT230"
+
             ],
             "semesters": [
                 "fall", 
@@ -1563,8 +1852,8 @@
                 "iCourse"
             ],
             "topics": [
-                "Adobe After Effects", 
-                "motion graphics"
+                "", 
+                ""
             ],
             "focusArea": "Motion Graphics",
             "equivalents": [
@@ -1572,6 +1861,13 @@
             ],
             "generalStudies": [
                 
+            ],
+            "degreeAndTerm": [
+                {"git-bas": 0},
+                {"git-bas-iwd": 0},
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0}
             ]
         },
         {
@@ -1608,6 +1904,13 @@
             ],
             "generalStudies": [
                 
+            ],
+            "degreeAndTerm": [
+                {"git-bas": 0},
+                {"git-bas-iwd": 0},
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0}
             ]
         },
         {
@@ -1644,42 +1947,13 @@
             ],
             "generalStudies": [
                 
-            ]
-        },
-        {
-            "name": "",
-            "term": 0,
-            "program": "",
-            "number": 0,
-            "credits": 3,
-            "description": "",
-            "minimum-grade": "",
-            "requirements": [
-
             ],
-            "prerequisites": [
-
-            ],
-            "semesters": [
-                "fall", 
-                "spring", 
-                "summer"
-            ],
-            "formats": [
-                "online", 
-                "campus", 
-                "iCourse"
-            ],
-            "topics": [
-                "", 
-                ""
-            ],
-            "focusArea": "Motion Graphics",
-            "equivalents": [
-                
-            ],
-            "generalStudies": [
-                
+            "degreeAndTerm": [
+                {"git-bas": 0},
+                {"git-bas-iwd": 0},
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0}
             ]
         }
     ],
@@ -1718,6 +1992,13 @@
             ],
             "generalStudies": [
                 
+            ],
+            "degreeAndTerm": [
+                {"git-bas": 0},
+                {"git-bas-iwd": 0},
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0}
             ]
         }
     ]

@@ -219,7 +219,7 @@ img{
 }
 
 /* Shared Heading Styles */
-h1, h2, h3{
+h1, h2, h3, h4, h5{
     font-weight: bold;
     width: fit-content;
     letter-spacing: -0.5px;
@@ -244,15 +244,30 @@ h2{
     text-align: center;
 }
 
-/* H3 Styles */
-h3{
-    font-size: 1.75rem;
-    line-height: 2.25rem;
+/* Shared Subheading Styles */
+h3, h4, h5{
     padding: 4px 8px;
     margin: 8px 0;
     color: var(--wht);
     background-color: var(--black);
+}
 
+/* H3 Styles */
+h3{
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+}
+
+/* H4 Styles */
+h4{
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+/* H5 Styles */
+h5{
+    font-size: 1.35rem;
+    line-height: 1.85rem;
 }
 
 /* Navigation Styles */
@@ -455,6 +470,50 @@ select{
 .ui-selectmenu-button.ui-button:focus-visible{
     outline: 4px solid var(--gold);
     outline-offset: 2px;
+}
+
+#prog-output, #prog-selection{
+    display: flex;
+    gap: 16px;
+}
+
+#prog-selection{
+    flex-wrap: wrap;
+    width: 75%;
+}
+
+#prog-selection dt{
+    font-size: 1.25rem;
+    font-weight: bold;
+    order: -1;
+}
+
+#prog-selection dt, #prog-selection dd{
+    width: 200px;
+}
+
+#prog-selection dd::first-letter{
+    text-transform: capitalize;
+}
+
+button{
+    font-size: 1.1rem;
+    border: none;
+}
+
+#generate-map{
+    align-self: center;
+}
+
+/* Interactive Major Map builder div */
+#major-map-output{
+    margin-top: 32px;
+}
+
+#major-map-output > div{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
 }
 
 /* Shared Heading Styles */

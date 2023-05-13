@@ -61,16 +61,16 @@
                 </ul>
             </div>
 
-            <section id="program">
+            <section id="major-map">
                 <h3>Major Map Builder</h3>
                 <p>From the menus below, choose your program type (campus or online), the degree program you are interested in, and your primary focus area for that program (if applicable). The courses that are required will populate in the map builder below, and you can drag and drop additional courses from your focus area into the builder as well. When you are ready, feel free to print your generated major map to refer to as you complete the program or in preparation for your next appointment with an advisor.</p>
                 <form action="#">
                     <fieldset>
                         <label for="prog-loc">Choose a program type:</label>
                         <select name="prog-loc" id="prog-loc">
-                            <option value="">Choose a location</option>
-                            <option value="online" data-class="ui-icon-online">Online</option>
-                            <option value="campus" data-class="ui-icon-campus">Campus</option>
+                            <option value="">Choose a type</option>
+                            <option value="online">Online</option>
+                            <option value="campus">Campus</option>
                         </select>
                     </fieldset>
 
@@ -78,11 +78,11 @@
                         <label for="deg-progs">Choose a degree program:</label>
                         <select name="deg-progs" id="deg-progs">
                             <option value="">Choose a program</option>
-                            <option value="git-bs" data-class="ui-icon-git">GIT BS</option>
-                            <option value="git-bs" data-class="ui-icon-git">GIT Full Stack BS</option>
-                            <option value="git-bs-ux" data-class="ui-icon-git">GIT UX BS</option>
-                            <option value="git-bas" data-class="ui-icon-git">GIT BAS</option>
-                            <option value="git-bas-iwd" data-class="ui-icon-git">GIT BAS IWD</option>
+                            <option value="git-bs">GIT BS</option>
+                            <option value="git-bs-fs">GIT Full-Stack BS</option>
+                            <option value="git-bs-ux">GIT UX BS</option>
+                            <option value="git-bas">GIT BAS</option>
+                            <option value="git-bas-iwd">GIT BAS IWD</option>
                         </select>
                     </fieldset>
 
@@ -99,15 +99,22 @@
                         </select>
                     </fieldset>
                 </form>
-                <dl id="prog-selection" class="hidden">
-                    <dt>Program Location:</dt>
-                    <dd id="loc"></dd>
-                    <dt>Degree Program:</dt>
-                    <dd id="deg-selection"></dd>
-                    <dt>Program Location:</dt>
-                    <dd id="deg-selection"></dd>
-                </dl>
-                <button id="generateMap" class="btn-default">Generate Major Map</button>
+                <div id="prog-output">
+                    <dl id="prog-selection">
+                        <dt>Program Type:</dt>
+                        <dd id="loc">None chosen</dd>
+                        <dt>Degree Program:</dt>
+                        <dd id="deg-selection">None chosen</dd>
+                        <dt>Primary Focus Area:</dt>
+                        <dd id="focus-selection">None chosen</dd>
+                    </dl>
+                    <button id="generate-map" class="btn-default">Generate Major Map</button>
+                </div>
+                <section id="major-map-output" class="hidden">
+                    <h4>Major Map for <span id="chosen-program"></span></h4>
+                    <p>Below, you can see the required courses for your degree program and the semester when it is suggested that you take them. Each course can be dragged to and from the different terms (semesters) below, unless you try to move a course to a spot in the program before you've taken a prerequisite course.</p>
+                    <div></div>
+                </section>
             </section>
 
         </main>
