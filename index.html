@@ -69,18 +69,34 @@
             <section id="programs">
                 <h3>GIT Degree Programs</h3>
                 <p></p>
-                <dl>
-                    <dt>program 1</dt>
-                    <dd>details</dd>
-                    <dt>program 2</dt>
-                    <dd>details</dd>
-                    <dt>program 3</dt>
-                    <dd>details</dd>
-                    <dt>program 4</dt>
-                    <dd>details</dd>
-                    <dt>program 5</dt>
-                    <dd>details</dd>
-                </dl>
+                <div id="accordion">
+                    <h4>Graphic Information Technology B.S. <span class="fa-solid fa-chevron-down"></span></h4>
+                    <div>
+                        <p>In the GIt BS program, students choose a primary focus in a GIT Focus Area (commercial photography, commercial print, commercial videography, front-end web development, interaction design, motion graphics, or user experience), and a secondary focus in any program or area. Students are introduced to all of the focus areas in their core courses as well.</p>
+                        <a href="https://degrees.apps.asu.edu/bachelors/major/ASU00/TSGITBS/graphic-information-technology" target="_blank">Read more about the GIT B.S. on the Academic Programs website</a>
+                    </div>
+                    <h4>Graphic Information Technology (Full-Stack Web Development) B. S. <span class="fa-solid fa-chevron-down"></span></h4>
+                    <div>
+                        <p>The BS program in graphic information technology with a concentration in full-stack web development focuses on front-end and back-end website and application development. This cross-disciplinary program has a foundation in user-centered design and client-side scripting (HTML, CSS, JS) and extends to server-side programming (PHP, Python, SQL, etc.).</p>
+                        <a href="https://degrees.apps.asu.edu/bachelors/major/ASU00/ESGITFSWBS/graphic-information-technology-full-stack-web-development" target="_blank">Read more about the GIT Full-Stack Web Development B.S. on the Academic Programs website</a>
+                    </div>
+                    <h4>Graphic Information Technology User Experience B.S. <span class="fa-solid fa-chevron-down"></span></h4>
+                    <div>
+                        <p>The graphic information technology user experience concentration prepares students for creating visual designs based on the needs and wants of the user. In addition to gaining a broad understanding of visual design technologies from core GIT courses, students will also learn to perform user research, analyze data and communicate the results through visual design.</p>
+                        <p>In addition to courses in graphic information technology, this concentration includes courses from human systems engineering and technical communication to provide students with a robust knowledge of user experience design.</p>
+                        <a href="https://degrees.apps.asu.edu/major-map/ASU00/ESGITUEBS/null/ALL/2023" target="_blank">Read more about the GIT User Experience B.S. on the Academic Programs website</a>
+                    </div>
+                    <h4>Graphic Information Technology B.A.S. <span class="fa-solid fa-chevron-down"></span></h4>
+                    <div>
+                        <p>The Bachelor of Applied Science program is a flexible, 60-credit-hour degree designed specifically for students who have earned a relevant A.A.S. from a regionally accredited institution. After transferring into the program with your associates degree you should be able to complete your degree within two years.</p>
+                        <a href="https://poly.engineering.asu.edu/git/bas-in-graphic-information-technology/" target="_blank">Read more about the GIT B.A.S. on the Academic Programs website</a>
+                    </div>
+                    <h4>Graphic Information Technology - Internet and Web Development B.A.S. <span class="fa-solid fa-chevron-down"></span></h4>
+                    <div>
+                        <p>The Bachelor of Applied Science Internet and Web Development (IWD) program is a flexible, 60-credit-hour degree designed specifically for students who have earned a relevant A.A.S. from a regionally accredited institution. After transferring into the program with your associates degree you should be able to complete your degree within two years.</p>
+                        <a href="https://poly.engineering.asu.edu/bas-internet-and-web-development/" target="_blank">Read more about the GIT - IWD B.A.S. on the Academic Programs website</a>
+                    </div>
+                </div>
             </section>
 
             <section id="core-git">
@@ -159,12 +175,18 @@
                 </form>
                 <div id="prog-output">
                     <dl id="prog-selection">
-                        <dt>Program Type:</dt>
-                        <dd id="loc">None chosen</dd>
-                        <dt>Degree Program:</dt>
-                        <dd id="deg-selection">None chosen</dd>
-                        <dt>Primary Focus Area:</dt>
-                        <dd id="focus-selection">None chosen</dd>
+                        <div>
+                            <dt>Program Type:</dt>
+                            <dd id="loc">None chosen</dd>
+                        </div>
+                        <div>
+                            <dt>Degree Program:</dt>
+                            <dd id="deg-selection">None chosen</dd>
+                        </div>
+                        <div>
+                            <dt>Primary Focus Area:</dt>
+                            <dd id="focus-selection">None chosen</dd>
+                        </div> 
                     </dl>
                     <button id="generate-map" class="btn-default">Generate Major Map</button>
                 </div>

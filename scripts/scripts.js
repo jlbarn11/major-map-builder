@@ -46,6 +46,13 @@ $(function(){
         });
     });
 
+    // create the accordion in the programs section
+    $("#accordion").accordion({
+        collapsible: true,
+        active: false,
+        heightStyle: "content"
+    });
+
 
     // Create the select menu dropdowns
     $("#prog-loc").selectmenu({
@@ -155,20 +162,33 @@ $(function(){
 
         // verify that the first two options have something selected
         if(type === ""){
-            $("#loc").text("A type is required").addClass("error-text");
+            $("#loc").html("<i class=\"warning\"></i>A type is required").addClass("error-text");
             readyToGenerate = false;
+        }else{
+            $("#loc").empty().text($("#prog-loc option:selected").text()).removeClass("error-text");
         }
 
         if(prog === ""){
-            $("#deg-selection").text("A program is required").addClass("error-text");
+            $("#deg-selection").html("<i class=\"warning\"></i>A program is required").addClass("error-text");
             readyToGenerate = false;
+            $("#deg-selection").removeClass("all-caps");
             // based on the current value of the program, disable/enable the focus area dropdown
         }else if(prog === "git-bs" || prog === "git-bas"){
             // these programs offer focus areas, the others do not
             $("#focus-opts").selectmenu("option", "disabled", false);
-            focus = $("#focus-opts").val();
+            $("#deg-selection").removeClass("error-text");
+            focus = $("#focus-opts option:selected").val();
+            $("#deg-selection").addClass("all-caps");
+            if(focus === ""){
+                $("#focus-selection").html("<i class=\"warning\"></i>A focus area is required");
+                $("#focus-selection").addClass("error-text");
+            }else{
+                $("#focus-selection").text($("#focus-opts option:selected").text()).removeClass("error-text");
+            }
         }else{
-            $("#focus-selection").text("Not required for this program");
+            $("#focus-opts").selectmenu("option", "disabled", true);
+            $("#focus-selection").text("Not required for this program").removeClass("error-text");
+            // $("#focus-selection").removeClass("all-caps");
         }
         
 

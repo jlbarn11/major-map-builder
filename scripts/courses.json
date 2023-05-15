@@ -17,7 +17,6 @@
     "coreGitAll": [
         {
             "name": "Graphic Industry Business Practices",
-            "term": 8,
             "program": "GIT",
             "number": 432,
             "credits": 3,
@@ -50,16 +49,20 @@
                 
             ],
             "degreeAndTerm": [
-                {"git-bas": 0},
-                {"git-bas-iwd": 0},
-                {"git-bs": 0},
-                {"git-bs-fs": 0},
-                {"git-ux": 0}
+                {"git-bas": "8"},
+                {"git-bas-iwd": "8"},
+                {"git-bs": "8"},
+                {"git-bs-fs": "8"},
+                {"git-ux": "8"},
+                {"git-bas-o": "8B"},
+                {"git-bas-iwd-o": "8B"},
+                {"git-bs-o": "8B"},
+                {"git-bs-fs-o": "8A"},
+                {"git-ux-o": "8B"}
             ]
         },
         {
             "name": "Digital Workflow in Graphic Industries",
-            "term": 7,
             "program": "GIT",
             "number": 450,
             "credits": 3,
@@ -98,16 +101,20 @@
                 
             ],
             "degreeAndTerm": [
-                {"git-bas": 0},
-                {"git-bas-iwd": 0},
-                {"git-bs": 0},
-                {"git-bs-fs": 0},
-                {"git-ux": 0}
+                {"git-bas": "7"},
+                {"git-bas-iwd": "7"},
+                {"git-bs": "7"},
+                {"git-bs-fs": "7"},
+                {"git-ux": "7"},
+                {"git-bas-o": "7A"},
+                {"git-bas-iwd-o": "7B"},
+                {"git-bs-o": "7A"},
+                {"git-bs-fs-o": "7A"},
+                {"git-ux-o": "7A"}
             ]
         },
         {
             "name": "Professional Portfolio Design and Presentation",
-            "term": 8,
             "program": "GIT",
             "number": 413,
             "credits": 3,
@@ -144,16 +151,20 @@
                 
             ],
             "degreeAndTerm": [
-                {"git-bas": 0},
-                {"git-bas-iwd": 0},
-                {"git-bs": 0},
-                {"git-bs-fs": 0},
-                {"git-ux": 0}
+                {"git-bas": "8"},
+                {"git-bas-iwd": "8"},
+                {"git-bs": "8"},
+                {"git-bs-fs": "8"},
+                {"git-ux": "8"},
+                {"git-bas-o": "8A"},
+                {"git-bas-iwd-o": "8A"},
+                {"git-bs-o": "8A"},
+                {"git-bs-fs-o": "8A"},
+                {"git-ux-o": "8A"}
             ]
         },
         {
             "name": "Senior Project",
-            "term": 7,
             "program": "GIT",
             "number": 480,
             "credits": 3,
@@ -186,18 +197,22 @@
                 
             ],
             "degreeAndTerm": [
-                {"git-bas": 0},
-                {"git-bas-iwd": 0},
-                {"git-bs": 0},
-                {"git-bs-fs": 0},
-                {"git-ux": 0}
+                {"git-bas": "7"},
+                {"git-bas-iwd": "7"},
+                {"git-bs": "7"},
+                {"git-bs-fs": "7"},
+                {"git-ux": "7"},
+                {"git-bas-o": "7B"},
+                {"git-bas-iwd-o": "7A"},
+                {"git-bs-o": "7B"},
+                {"git-bs-fs-o": "7A"},
+                {"git-ux-o": "7A"}
             ]
         }
     ],
     "coreGitBs": [
         {
             "name": "Graphic Communications",
-            "term": 1,
             "program": "GIT",
             "number": 135,
             "credits": 3,
@@ -229,14 +244,16 @@
 
             ],
             "degreeAndTerm": [
-                {"git-bs": 0},
-                {"git-bs-fs": 0},
-                {"git-ux": 0}
+                {"git-bs": "1"},
+                {"git-bs-fs": "1"},
+                {"git-ux": "1"},
+                {"git-bs-o": "1A"},
+                {"git-bs-fs-o": "1A"},
+                {"git-ux-o": "1A"}
             ]
         },
         {
             "name": "Creative Thinking and Design Visualization",
-            "term": 1,
             "program": "GIT",
             "number": 210,
             "credits": 3,
@@ -269,14 +286,65 @@
                 
             ],
             "degreeAndTerm": [
-                {"git-bs": 0},
-                {"git-bs-fs": 0},
-                {"git-ux": 0}
+                {"git-bs": "1"},
+                {"git-bs-fs": "1"},
+                {"git-ux": "1"},
+                {"git-bs-o": "1B"},
+                {"git-bs-fs-o": "1B"},
+                {"git-ux-o": "1B"}
+            ]
+        },
+        {
+            "name": "Introduction to Web Authoring",
+            "program": "GIT",
+            "number": 215,
+            "credits": 3,
+            "description": "Website planning and evaluation using industry-standard languages.",
+            "minimum-grade": "C",
+            "requirements": [
+                "Credit is allowed for only GIT 215 or GIT 310 OR Visiting University Student"
+            ],
+            "prerequisites": [
+
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus",
+                "iCourse"
+            ],
+            "topics": [
+                "HTML5", 
+                "CSS3",
+                "Web Accessibility",
+                "Web Development",
+                "Semantic HTML",
+                "Static Website Development",
+                "Fixed-Width Website Development",
+                "Authoring HTML for SEO, Usability, and Accessibility"
+            ],
+            "focusArea": "Front-End Web Development",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ],
+            "degreeAndTerm": [
+                {"git-bs": "4"},
+                {"git-bs-fs": "4"},
+                {"git-ux": "4"},
+                {"git-bs-o": "4A"},
+                {"git-bs-fs-o": "4A"},
+                {"git-ux-o": "4A"}
             ]
         },
         {
             "name": "Digital Illustration in Publishing",
-            "term": 2,
             "program": "GIT",
             "number": 230,
             "credits": 3,
@@ -310,14 +378,16 @@
                 
             ],
             "degreeAndTerm": [
-                {"git-bs": 0},
-                {"git-bs-fs": 0},
-                {"git-ux": 0}
+                {"git-bs": "2"},
+                {"git-bs-fs": "2"},
+                {"git-ux": "2"},
+                {"git-bs-o": "2B"},
+                {"git-bs-fs-o": "2A"},
+                {"git-ux-o": "2A"}
             ]
         },
         {
             "name": "Introduction to Commercial Print",
-            "term": 3,
             "program": "GIT",
             "number": 250,
             "credits": 3,
@@ -350,20 +420,17 @@
             "generalStudies": [
                 
             ],
-            "degrees": [
-                "git-bs",
-                "git-bs-fs",
-                "git-ux"
-            ],
             "degreeAndTerm": [
-                {"git-bs": 0},
-                {"git-bs-fs": 0},
-                {"git-ux": 0}
+                {"git-bs": "2"},
+                {"git-bs-fs": "2"},
+                {"git-ux": "2"},
+                {"git-bs-o": "2B"},
+                {"git-bs-fs-o": "2B"},
+                {"git-ux-o": "2B"}
             ]
         },
         {
             "name": "Digital publishing",
-            "term": 6,
             "program": "GIT",
             "number": 303,
             "credits": 3,
@@ -400,15 +467,18 @@
                 
             ],
             "degreeAndTerm": [
-                {"git-bas": 0},
-                {"git-bs": 0},
-                {"git-bs-fs": 0},
-                {"git-ux": 0}
+                {"git-bas": "6"},
+                {"git-bs": "6"},
+                {"git-bs-fs": "5"},
+                {"git-ux": "5"},
+                {"git-bas-o": "6A"},
+                {"git-bs-o": "6A"},
+                {"git-bs-fs-o": "5A"},
+                {"git-ux-o": "5A"}
             ]
         },
         {
             "name": "Multimedia Design, Planning, and Storyboards",
-            "term": 6,
             "program": "GIT",
             "number": 314,
             "credits": 3,
@@ -442,14 +512,18 @@
                 
             ],
             "degreeAndTerm": [
-                {"git-bas": 0},
-                {"git-bs": 0},
-                {"git-bs-fs": 0},
-                {"git-ux": 0}
+                {"git-bas": "6"},
+                {"git-bs": "6"},
+                {"git-bs-fs": "6"},
+                {"git-ux": "6"},
+                {"git-bas-o": "6A"},
+                {"git-bs-o": "6A"},
+                {"git-bs-fs-o": "6A"},
+                {"git-ux-o": "6A"}
             ]
-        },{
-            "name": "Digital VIdeo Techniques",
-            "term": 5,
+        },
+        {
+            "name": "Digital Video Techniques",
             "program": "GIT",
             "number": 315,
             "credits": 3,
@@ -475,15 +549,62 @@
                 
             ],
             "degreeAndTerm": [
-                {"git-bas": 0},
-                {"git-bs": 0},
-                {"git-bs-fs": 0},
-                {"git-ux": 0}
+                {"git-bas": "5"},
+                {"git-bs": "5"},
+                {"git-bs-fs": "5"},
+                {"git-ux": "5"},
+                {"git-bas-o": "5A"},
+                {"git-bs-o": "5B"},
+                {"git-bs-fs-o": "5B"},
+                {"git-ux-o": "5B"}
+            ]
+        },
+        {
+            "name": "Web Content Design",
+            "program": "GIT",
+            "number": 337,
+            "credits": 3,
+            "description": "User-centered design principles for visual content on the World Wide Web with emphasis on content strategy, user experience, coding and interactivity.",
+            "minimum-grade": "C",
+            "requirements": [
+                "GIT 215 with C or better",
+                "GIT 230 OR Applied Science (Graphic Information Technology) BAS or Applied Science (Internet and Web Development) BAS major",
+                "Credit is allowed for only GIT 310 or GIT 337 OR Visiting University Student"
+            ],
+            "prerequisites": [
+                "GIT215",
+                "GIT230"
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus",
+                "iCourse"
+            ],
+            "topics": [
+                "CSS",
+                "Fluid Website Development and Design"
+            ],
+            "focusArea": "Front-End Web Development",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ],
+            "degreeAndTerm": [
+                {"git-bs-fs": "5"},
+                {"git-ux": "5"},
+                {"git-bs-fs-o": "5A"},
+                {"git-ux-o": "5A"}
             ]
         },
         {
             "name": "Commercial Photography",
-            "term": 5,
             "program": "GIT",
             "number": 384,
             "credits": 3,
@@ -518,10 +639,454 @@
                 
             ],
             "degreeAndTerm": [
-                {"git-bas": 0},
-                {"git-bs": 0},
-                {"git-bs-fs": 0},
-                {"git-ux": 0}
+                {"git-bas": "5"},
+                {"git-bs": "5"},
+                {"git-bs-fs": "5"},
+                {"git-ux": "5"},
+                {"git-bas-o": "5B"},
+                {"git-bs-o": "5A"},
+                {"git-bs-fs-o": "5B"},
+                {"git-ux-o": "5B"}
+            ]
+        }
+    ],
+    "coreGitBsUx": [
+        {
+            "name": "Graphic Communications",
+            "program": "GIT",
+            "number": 135,
+            "credits": 3,
+            "description": "Processes involved in design, asset generation, transmission, production and evaluation of visual content.",
+            "minimum-grade": "C",
+            "requirements": [
+                
+            ],
+            "prerequisites": [
+
+            ],
+            "semesters": [
+                "fall",
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "iCourse"
+            ],
+            "topics": [
+                "design"
+            ],
+            "focusArea": "Interaction Design",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+
+            ],
+            "degreeAndTerm": [
+                {"git-bs": "1"},
+                {"git-bs-fs": "1"},
+                {"git-ux": "1"},
+                {"git-bs-o": "1A"},
+                {"git-bs-fs-o": "1A"},
+                {"git-ux-o": "1A"}
+            ]
+        },
+        {
+            "name": "Creative Thinking and Design Visualization",
+            "program": "GIT",
+            "number": 210,
+            "credits": 3,
+            "description": "Fundamental methods, concepts and techniques of creative thinking, ideation and problem solving, including communication and societal influences. Examines drawing and design visualization, from sketching to data graphics.",
+            "minimum-grade": "none",
+            "requirements": [
+                
+            ],
+            "prerequisites": [
+
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "iCourse"
+            ],
+            "topics": [
+                "design", 
+                "creative thinking"
+            ],
+            "focusArea": "Interaction Design",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ],
+            "degreeAndTerm": [
+                {"git-bs": "1"},
+                {"git-bs-fs": "1"},
+                {"git-ux": "1"},
+                {"git-bs-o": "1B"},
+                {"git-bs-fs-o": "1B"},
+                {"git-ux-o": "1B"}
+            ]
+        },
+        {
+            "name": "Introduction to Web Authoring",
+            "program": "GIT",
+            "number": 215,
+            "credits": 3,
+            "description": "Website planning and evaluation using industry-standard languages.",
+            "minimum-grade": "C",
+            "requirements": [
+                "Credit is allowed for only GIT 215 or GIT 310 OR Visiting University Student"
+            ],
+            "prerequisites": [
+
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus",
+                "iCourse"
+            ],
+            "topics": [
+                "HTML5", 
+                "CSS3",
+                "Web Accessibility",
+                "Web Development",
+                "Semantic HTML",
+                "Static Website Development",
+                "Fixed-Width Website Development",
+                "Authoring HTML for SEO, Usability, and Accessibility"
+            ],
+            "focusArea": "Front-End Web Development",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ],
+            "degreeAndTerm": [
+                {"git-bs": "4"},
+                {"git-bs-fs": "4"},
+                {"git-ux": "4"},
+                {"git-bs-o": "4A"},
+                {"git-bs-fs-o": "4A"},
+                {"git-ux-o": "4A"}
+            ]
+        },
+        {
+            "name": "Digital Illustration in Publishing",
+            "program": "GIT",
+            "number": 230,
+            "credits": 3,
+            "description": "Raster and vector illustration in publishing.",
+            "minimum-grade": "C",
+            "requirements": [
+                "MAT117 with C or better"
+            ],
+            "prerequisites": [
+                "MAT117"
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "iCourse"
+            ],
+            "topics": [
+                "design", 
+                "Adobe Illustrator", 
+                "Adobe Photoshop"
+            ],
+            "focusArea": "Interaction Design",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ],
+            "degreeAndTerm": [
+                {"git-bs": "2"},
+                {"git-bs-fs": "2"},
+                {"git-ux": "2"},
+                {"git-bs-o": "2B"},
+                {"git-bs-fs-o": "2A"},
+                {"git-ux-o": "2A"}
+            ]
+        },
+        {
+            "name": "Introduction to Commercial Print",
+            "program": "GIT",
+            "number": 250,
+            "credits": 3,
+            "description": "Provides an overview of current print technology, a basic understanding of the print process and current workflows.",
+            "minimum-grade": "none",
+            "requirements": [
+                "Applied Science (Graphic Info Tech) BAS, Applied Science (Internet & Web Dev) BAS, Graphic Info Tech BS, Graphic Info Tech (Full-Stack Web Development) BS or Graphic Info Tech (User Experience) BS major OR Visiting University Student"
+            ],
+            "prerequisites": [
+                
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus"
+            ],
+            "topics": [
+                "print processes", 
+                "print design",
+                "print technologies"
+            ],
+            "focusArea": "Commercial Print",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ],
+            "degreeAndTerm": [
+                {"git-bs": "2"},
+                {"git-bs-fs": "2"},
+                {"git-ux": "2"},
+                {"git-bs-o": "2B"},
+                {"git-bs-fs-o": "2B"},
+                {"git-ux-o": "2B"}
+            ]
+        },
+        {
+            "name": "Digital publishing",
+            "program": "GIT",
+            "number": 303,
+            "credits": 3,
+            "description": "Web and print publication design and production using industry-standard composition software, proofing, and output devices.",
+            "minimum-grade": "none",
+            "requirements": [
+                "GIT 230 with C or better or Applied Science (Internet and Web Development) BAS or Applied Science (Graphic Information Technology) BAS major OR Visiting University Student"
+            ],
+            "prerequisites": [
+                "GIT230"
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus", 
+                "iCourse"
+            ],
+            "topics": [
+                "page layout design", 
+                "packaging design",
+                "marketing material design for print",
+                "Adobe InDesign",
+                "print asset management"
+            ],
+            "focusArea": "Commercial Print",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ],
+            "degreeAndTerm": [
+                {"git-bas": "6"},
+                {"git-bs": "6"},
+                {"git-bs-fs": "5"},
+                {"git-ux": "5"},
+                {"git-bas-o": "6A"},
+                {"git-bs-o": "6A"},
+                {"git-bs-fs-o": "5A"},
+                {"git-ux-o": "5A"}
+            ]
+        },
+        {
+            "name": "Multimedia Design, Planning, and Storyboards",
+            "program": "GIT",
+            "number": 314,
+            "credits": 3,
+            "description": "The creative process of generating ideas, conceptualizing projects, planning, designing, story boarding, and presenting interactive multimedia products.",
+            "minimum-grade": "none",
+            "requirements": [
+                "GIT 230 with C or better; minimum junior standing OR Applied Science (Graphic Information Technology) BAS or Applied Science (Internet and Web Development) BAS major OR Visiting University Student"
+            ],
+            "prerequisites": [
+                "GIT230"
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus", 
+                "iCourse"
+            ],
+            "topics": [
+                "Adobe After Effects", 
+                "motion graphics"
+            ],
+            "focusArea": "Motion Graphics",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ],
+            "degreeAndTerm": [
+                {"git-bas": "6"},
+                {"git-bs": "6"},
+                {"git-bs-fs": "6"},
+                {"git-ux": "6"},
+                {"git-bas-o": "6A"},
+                {"git-bs-o": "6A"},
+                {"git-bs-fs-o": "6A"},
+                {"git-ux-o": "6A"}
+            ]
+        },
+        {
+            "name": "Digital Video Techniques",
+            "program": "GIT",
+            "number": 315,
+            "credits": 3,
+            "description": "Covers video production, including planning, pre-production, production, post-production and online video technologies and how video is an integral part of the graphic information industry. Concentrates on commercial and client-driven video production.",
+            "minimum-grade": "",
+            "prerequisites": [
+                "Applied Science (Graphic Information Technology) BAS major or Applied Science (Internet and Web Development) BAS major or GIT 230 with C or better OR Visiting University Student"
+            ],
+            "semesters": [
+                "fall", "spring", "summer"
+            ],
+            "formats": [
+                "online", "campus", "iCourse"
+            ],
+            "topics": [
+                "", ""
+            ],
+            "focusArea": "Commercial Video",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ],
+            "degreeAndTerm": [
+                {"git-bas": "5"},
+                {"git-bs": "5"},
+                {"git-bs-fs": "5"},
+                {"git-ux": "5"},
+                {"git-bas-o": "5A"},
+                {"git-bs-o": "5B"},
+                {"git-bs-fs-o": "5B"},
+                {"git-ux-o": "5B"}
+            ]
+        },
+        {
+            "name": "Web Content Design",
+            "program": "GIT",
+            "number": 337,
+            "credits": 3,
+            "description": "User-centered design principles for visual content on the World Wide Web with emphasis on content strategy, user experience, coding and interactivity.",
+            "minimum-grade": "C",
+            "requirements": [
+                "GIT 215 with C or better",
+                "GIT 230 OR Applied Science (Graphic Information Technology) BAS or Applied Science (Internet and Web Development) BAS major",
+                "Credit is allowed for only GIT 310 or GIT 337 OR Visiting University Student"
+            ],
+            "prerequisites": [
+                "GIT215",
+                "GIT230"
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus",
+                "iCourse"
+            ],
+            "topics": [
+                "CSS",
+                "Fluid Website Development and Design"
+            ],
+            "focusArea": "Front-End Web Development",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ],
+            "degreeAndTerm": [
+                {"git-bs-fs": "5"},
+                {"git-ux": "5"},
+                {"git-bs-fs-o": "5A"},
+                {"git-ux-o": "5A"}
+            ]
+        },
+        {
+            "name": "Commercial Photography",
+            "program": "GIT",
+            "number": 384,
+            "credits": 3,
+            "description": "Digital image capture, and output in a commercial studio emphasizing publishing workflow.",
+            "minimum-grade": "",
+            "requirements": [
+                "GIT 230 with C or better or Applied Science (Graphic Information Technology) BAS or Applied Science (Internet and Web Development) BAS major OR Visiting University Student"
+            ],
+            "prerequisites": [
+                "GIT230"
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus"
+            ],
+            "topics": [
+                "studio photography", 
+                "lighting",
+                "portrait styles",
+                "product photography"
+            ],
+            "focusArea": "all",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ],
+            "degreeAndTerm": [
+                {"git-bas": "5"},
+                {"git-bs": "5"},
+                {"git-bs-fs": "5"},
+                {"git-ux": "5"},
+                {"git-bas-o": "5B"},
+                {"git-bs-o": "5A"},
+                {"git-bs-fs-o": "5B"},
+                {"git-ux-o": "5B"}
             ]
         }
     ],
@@ -531,7 +1096,6 @@
     "coreNonGitBs":[
         {
             "name": "The ASU Experience",
-            "term": 1,
             "program": "ASU-TPS",
             "number": 101,
             "credits": 1,
@@ -565,14 +1129,16 @@
                 
             ],
             "degreeAndTerm": [
-                {"git-bs": 0},
-                {"git-bs-fs": 0},
-                {"git-ux": 0}
+                {"git-bs": "1"},
+                {"git-bs-fs": "1"},
+                {"git-ux": "1"},
+                {"git-bs-o": "1A"},
+                {"git-bs-fs-o": "1A"},
+                {"git-ux-o": "1A"}
             ]
         },
         {
             "name": "Introduction to Human Systems Engineering",
-            "term": 1,
             "program": "HSE",
             "number": 101,
             "credits": 3,
@@ -610,14 +1176,16 @@
                 "git-ux"
             ],
             "degreeAndTerm": [
-                {"git-bs": 0},
-                {"git-bs-fs": 0},
-                {"git-ux": 0}
+                {"git-bs": "1"},
+                {"git-bs-fs": "2"},
+                {"git-ux": "2"},
+                {"git-bs-o": "1B"},
+                {"git-bs-fs-o": "2A"},
+                {"git-ux-o": "2A"}
             ]
         },
         {
             "name": "Understanding the Enterprise",
-            "term": 3,
             "program": "TMC",
             "number": 110,
             "credits": 3,
@@ -651,14 +1219,16 @@
                 
             ],
             "degreeAndTerm": [
-                {"git-bs": 0},
-                {"git-bs-fs": 0},
-                {"git-ux": 0}
+                {"git-bs": "3"},
+                {"git-bs-fs": "3"},
+                {"git-ux": "3"},
+                {"git-bs-o": "3A"},
+                {"git-bs-fs-o": "3A"},
+                {"git-ux-o": "3A"}
             ]
         },
         {
             "name": "First-Year Composition",
-            "term": 1,
             "program": "ENG",
             "number": 101,
             "credits": 3,
@@ -694,14 +1264,16 @@
                 
             ],
             "degreeAndTerm": [
-                {"git-bs": 0},
-                {"git-bs-fs": 0},
-                {"git-ux": 0}
+                {"git-bs": "1"},
+                {"git-bs-fs": "1"},
+                {"git-ux": "1"},
+                {"git-bs-o": "1B"},
+                {"git-bs-fs-o": "1A"},
+                {"git-ux-o": "1A"}
             ]
         },
         {
             "name": "First-Year Composition",
-            "term": 2,
             "program": "ENG",
             "number": 102,
             "credits": 3,
@@ -737,14 +1309,16 @@
                 
             ],
             "degreeAndTerm": [
-                {"git-bs": 0},
-                {"git-bs-fs": 0},
-                {"git-ux": 0}
+                {"git-bs": "2"},
+                {"git-bs-fs": "2"},
+                {"git-ux": "2"},
+                {"git-bs-o": "2A"},
+                {"git-bs-fs-o": "2A"},
+                {"git-ux-o": "2A"}
             ]
         },
         {
             "name": "College Algebra",
-            "term": 2,
             "program": "MAT",
             "number": 117,
             "credits": 3,
@@ -778,14 +1352,16 @@
                 "MA"
             ],
             "degreeAndTerm": [
-                {"git-bs": 0},
-                {"git-bs-fs": 0},
-                {"git-ux": 0}
+                {"git-bs": "2"},
+                {"git-bs-fs": "1"},
+                {"git-ux": "1"},
+                {"git-bs-o": "2A"},
+                {"git-bs-fs-o": "1B"},
+                {"git-ux-o": "1B"}
             ]
         },
         {
             "name": "Copyright and Intellectual Property in the Electronic Age",
-            "term": 5,
             "program": "TWC",
             "number": 451,
             "credits": 3,
@@ -820,9 +1396,12 @@
                 
             ],
             "degreeAndTerm": [
-                {"git-bs": 0},
-                {"git-bs-fs": 0},
-                {"git-ux": 0}
+                {"git-bs": "5"},
+                {"git-bs-fs": "6"},
+                {"git-ux": "5"},
+                {"git-bs-o": "5A"},
+                {"git-bs-fs-o": "6B"},
+                {"git-ux-o": "5A"}
             ]
         }
     ],
@@ -837,8 +1416,15 @@
                 "H"
             ],
             "division": "lower",
-            "term": 1,
-            "credits": 3
+            "credits": 3,
+            "degreeAndTerm": [
+                {"git-bs": "1"},
+                {"git-bs-fs": "1"},
+                {"git-ux": "1"},
+                {"git-bs-o": "1A"},
+                {"git-bs-fs-o": "1B"},
+                {"git-ux-o": "1B"}
+            ]
         },
         {
             "areas": [
@@ -848,8 +1434,15 @@
                 "SQ"
             ],
             "division": "lower",
-            "term": 2,
-            "credits": 4
+            "credits": 4,
+            "degreeAndTerm": [
+                {"git-bs": "2"},
+                {"git-bs-fs": "2"},
+                {"git-ux": "2"},
+                {"git-bs-o": "2B"},
+                {"git-bs-fs-o": "2B"},
+                {"git-ux-o": "2B"}
+            ]
         },
         {
             "areas": [
@@ -857,11 +1450,19 @@
                 "Natural Science - General"
             ],
             "abbreviation": [
-                "SQ"
+                "SQ",
+                "SG"
             ],
             "division": "lower",
-            "term": 3,
-            "credits": 4
+            "credits": 4,
+            "degreeAndTerm": [
+                {"git-bs": "3"},
+                {"git-bs-fs": "3"},
+                {"git-ux": "3"},
+                {"git-bs-o": "3B"},
+                {"git-bs-fs-o": "3A"},
+                {"git-ux-o": "3A"}
+            ]
         },
         {
             "areas": [
@@ -871,8 +1472,13 @@
                 "CS"
             ],
             "division": "lower",
-            "term": 3,
-            "credits": 3
+            "credits": 3,
+            "degreeAndTerm": [
+                {"git-bs": "3"},
+                {"git-bs-fs": "3"},
+                {"git-bs-o": "3B"},
+                {"git-bs-fs-o": "3B"}
+            ]
         },
         {
             "areas": [
@@ -884,8 +1490,15 @@
                 "G"
             ],
             "division": "lower",
-            "term": 4,
-            "credits": 3
+            "credits": 3,
+            "degreeAndTerm": [
+                {"git-bs": "4"},
+                {"git-bs-fs": "3"},
+                {"git-ux": "3"},
+                {"git-bs-o": "4A"},
+                {"git-bs-fs-o": "3B"},
+                {"git-ux-o": "3B"}
+            ]
         },
         {
             "areas": [
@@ -895,8 +1508,13 @@
                 "L"
             ],
             "division": "lower",
-            "term": 4,
-            "credits": 3
+            "credits": 3,
+            "degreeAndTerm": [
+                {"git-bs": "4"},
+                {"git-bs-fs": "4"},
+                {"git-bs-o": "4B"},
+                {"git-bs-fs-o": "4B"}
+            ]
         },
         {
             "areas": [
@@ -908,8 +1526,15 @@
                 "C"
             ],
             "division": "lower",
-            "term": 4,
-            "credits": 3
+            "credits": 3,
+            "degreeAndTerm": [
+                {"git-bs": "4"},
+                {"git-bs-fs": "4"},
+                {"git-ux": "4"},
+                {"git-bs-o": "4A"},
+                {"git-bs-fs-o": "4B"},
+                {"git-ux-o": "4B"}
+            ]
         },
         {
             "areas": [
@@ -921,8 +1546,15 @@
                 "SB"
             ],
             "division": "upper",
-            "term": 6,
-            "credits": 3
+            "credits": 3,
+            "degreeAndTerm": [
+                {"git-bs": "6"},
+                {"git-bs-fs": "6"},
+                {"git-ux": "6"},
+                {"git-bs-o": "6A"},
+                {"git-bs-fs-o": "6B"},
+                {"git-ux-o": "6A"}
+            ]
         },
         {
             "areas": [
@@ -932,70 +1564,829 @@
                 "L"
             ],
             "division": "upper",
-            "term": 7,
-            "credits": 3
+            "credits": 3,
+            "degreeAndTerm": [
+                {"git-bs": "7"},
+                {"git-bs-fs": "7"},
+                {"git-bs-o": "7A"},
+                {"git-bs-fs-o": "7B"}
+            ]
         }
     ],
     "coreGitBas": [
+        {
+            "name": "Digital publishing",
+            "program": "GIT",
+            "number": 303,
+            "credits": 3,
+            "description": "Web and print publication design and production using industry-standard composition software, proofing, and output devices.",
+            "minimum-grade": "none",
+            "requirements": [
+                "GIT 230 with C or better or Applied Science (Internet and Web Development) BAS or Applied Science (Graphic Information Technology) BAS major OR Visiting University Student"
+            ],
+            "prerequisites": [
+                "GIT230"
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus", 
+                "iCourse"
+            ],
+            "topics": [
+                "page layout design", 
+                "packaging design",
+                "marketing material design for print",
+                "Adobe InDesign",
+                "print asset management"
+            ],
+            "focusArea": "Commercial Print",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ],
+            "degreeAndTerm": [
+                {"git-bas": "6"},
+                {"git-bs": "6"},
+                {"git-bs-fs": "5"},
+                {"git-ux": "5"},
+                {"git-bas-o": "6A"},
+                {"git-bs-o": "6A"},
+                {"git-bs-fs-o": "5A"},
+                {"git-ux-o": "5A"}
+            ]
+        },
+        {
+            "name": "Multimedia Design, Planning, and Storyboards",
+            "program": "GIT",
+            "number": 314,
+            "credits": 3,
+            "description": "The creative process of generating ideas, conceptualizing projects, planning, designing, story boarding, and presenting interactive multimedia products.",
+            "minimum-grade": "none",
+            "requirements": [
+                "GIT 230 with C or better; minimum junior standing OR Applied Science (Graphic Information Technology) BAS or Applied Science (Internet and Web Development) BAS major OR Visiting University Student"
+            ],
+            "prerequisites": [
+                "GIT230"
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus", 
+                "iCourse"
+            ],
+            "topics": [
+                "Adobe After Effects", 
+                "motion graphics"
+            ],
+            "focusArea": "Motion Graphics",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ],
+            "degreeAndTerm": [
+                {"git-bas": "6"},
+                {"git-bs": "6"},
+                {"git-bs-fs": "6"},
+                {"git-ux": "6"},
+                {"git-bas-o": "6A"},
+                {"git-bs-o": "6A"},
+                {"git-bs-fs-o": "6A"},
+                {"git-ux-o": "6A"}
+            ]
+        },
+        {
+            "name": "Digital Video Techniques",
+            "program": "GIT",
+            "number": 315,
+            "credits": 3,
+            "description": "Covers video production, including planning, pre-production, production, post-production and online video technologies and how video is an integral part of the graphic information industry. Concentrates on commercial and client-driven video production.",
+            "minimum-grade": "",
+            "prerequisites": [
+                "Applied Science (Graphic Information Technology) BAS major or Applied Science (Internet and Web Development) BAS major or GIT 230 with C or better OR Visiting University Student"
+            ],
+            "semesters": [
+                "fall", "spring", "summer"
+            ],
+            "formats": [
+                "online", "campus", "iCourse"
+            ],
+            "topics": [
+                "", ""
+            ],
+            "focusArea": "Commercial Video",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ],
+            "degreeAndTerm": [
+                {"git-bas": "5"},
+                {"git-bs": "5"},
+                {"git-bs-fs": "5"},
+                {"git-ux": "5"},
+                {"git-bas-o": "5A"},
+                {"git-bs-o": "5B"},
+                {"git-bs-fs-o": "5B"},
+                {"git-ux-o": "5B"}
+            ]
+        },
+        {
+            "name": "Commercial Photography",
+            "program": "GIT",
+            "number": 384,
+            "credits": 3,
+            "description": "Digital image capture, and output in a commercial studio emphasizing publishing workflow.",
+            "minimum-grade": "",
+            "requirements": [
+                "GIT 230 with C or better or Applied Science (Graphic Information Technology) BAS or Applied Science (Internet and Web Development) BAS major OR Visiting University Student"
+            ],
+            "prerequisites": [
+                "GIT230"
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus"
+            ],
+            "topics": [
+                "studio photography", 
+                "lighting",
+                "portrait styles",
+                "product photography"
+            ],
+            "focusArea": "all",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ],
+            "degreeAndTerm": [
+                {"git-bas": "5"},
+                {"git-bs": "5"},
+                {"git-bs-fs": "5"},
+                {"git-ux": "5"},
+                {"git-bas-o": "5B"},
+                {"git-bs-o": "5A"},
+                {"git-bs-fs-o": "5B"},
+                {"git-ux-o": "5B"}
+            ]
+        }
+    ],
+    "coreHseBsUx": [
+        {
+            "name": "Statistics for Human Systems Research",
+            "program": "HSE",
+            "number": 230,
+            "credits": 3,
+            "description": "Basic methods of exploratory data analysis (including graphics) and statistical computing methods, including a detailed look at hypothesis testing, effect size and power analysis, as well as some methods for dealing with categorical and discrete data. Introduces both correlation/regression and analysis of variance (ANOVA), as well as common statistical software.",
+            "minimum-grade": "C",
+            "requirements": [
+                "HSE 101 or PSY 101 with C or better",
+                "MAT 117 or higher with C or better OR Visiting University Student"
+            ],
+            "prerequisites": [
+                "HSE101",
+                "MAT117"
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus", 
+                "iCourse"
+            ],
+            "topics": [
 
+            ],
+            "focusArea": "User Experience",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                "CS"
+            ],
+            "degreeAndTerm": [
+                {"git-ux": "3"},
+                {"git-ux-o": "3B"}
+            ]
+        },
+        {
+            "name": "Human Systems Integration",
+            "program": "HSE",
+            "number": 225,
+            "credits": 3,
+            "description": "Reviews human systems integration (HSI), which is basically systems engineering from a human-centered perspective. Research, theory and methodological approach as applied to a variety of systems ranging from transportation systems to medical and military systems. Discusses handbook chapters and specific examples of human systems integration.",
+            "minimum-grade": "C",
+            "requirements": [
+                "HSE 101 or PSY 101 with C or better", 
+                "Credit is allowed for only HSE 225 or IEE 225 OR Visiting University Student"
+            ],
+            "prerequisites": [
+                "HSE101"
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus", 
+                "iCourse"
+            ],
+            "topics": [
+                
+            ],
+            "focusArea": "User Experience",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ],
+            "degreeAndTerm": [
+                {"git-ux": "4"},
+                {"git-ux-o": "4A"}
+            ]
+        },
+        {
+            "name": "Experimental Methods for Human Systems Research",
+            "program": "HSE",
+            "number": 290,
+            "credits": 3,
+            "description": "Introduces the basics of research methodology as applied in human systems engineering. Quantitative and experimental design from an applied perspective. Guided study of the process of conducting research within human systems engineering. Project topics range from research question generation and literature review to reporting of results.",
+            "minimum-grade": "C",
+            "requirements": [
+                "ECN 221, ECN 231, EGR 280, HSE 230, IEE 380, PSY 230, STP 226, STP 420, or STS 401 with C or better",
+                "ENG 101, 105, or 107 with C or better OR Visiting University Student"
+            ],
+            "prerequisites": [
+                "HSE230",
+                "ENG101"
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus", 
+                "iCourse"
+            ],
+            "topics": [
+                
+            ],
+            "focusArea": "User Experience",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                "L"
+            ],
+            "degreeAndTerm": [
+                {"git-ux": "4"},
+                {"git-ux-o": "4B"}
+            ]
+        },
+        {
+            "name": "",
+            "program": "",
+            "number": 0,
+            "credits": 3,
+            "description": "",
+            "minimum-grade": "",
+            "requirements": [
+
+            ],
+            "prerequisites": [
+
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus", 
+                "iCourse"
+            ],
+            "topics": [
+
+            ],
+            "focusArea": "User Experience",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ],
+            "degreeAndTerm": [
+                {"git-ux": 0},
+                {"git-ux-o": ""}
+            ]
+        },
+        {
+            "name": "",
+            "program": "",
+            "number": 0,
+            "credits": 3,
+            "description": "",
+            "minimum-grade": "",
+            "requirements": [
+
+            ],
+            "prerequisites": [
+
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus", 
+                "iCourse"
+            ],
+            "topics": [
+                "", 
+                ""
+            ],
+            "focusArea": "User Experience",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ],
+            "degreeAndTerm": [
+                {"git-ux": 0},
+                {"git-ux-o": ""}
+            ]
+        }
+    ],
+    "coreTwcBsUx": [
+        {
+            "name": "",
+            "term": 0,
+            "program": "",
+            "number": 0,
+            "credits": 3,
+            "description": "",
+            "minimum-grade": "",
+            "requirements": [
+
+            ],
+            "prerequisites": [
+
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus", 
+                "iCourse"
+            ],
+            "topics": [
+                "", 
+                ""
+            ],
+            "focusArea": "User Experience",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ],
+            "degreeAndTerm": [
+                {"git-bas": 0},
+                {"git-bas-iwd": 0},
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0},
+                {"git-bas-o": ""},
+                {"git-bas-iwd-o": ""},
+                {"git-bs-o": ""},
+                {"git-bs-fs-o": ""},
+                {"git-ux-o": ""}
+            ]
+        },
+        {
+            "name": "",
+            "term": 0,
+            "program": "",
+            "number": 0,
+            "credits": 3,
+            "description": "",
+            "minimum-grade": "",
+            "requirements": [
+
+            ],
+            "prerequisites": [
+
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus", 
+                "iCourse"
+            ],
+            "topics": [
+                "", 
+                ""
+            ],
+            "focusArea": "User Experience",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ],
+            "degreeAndTerm": [
+                {"git-bas": 0},
+                {"git-bas-iwd": 0},
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0},
+                {"git-bas-o": ""},
+                {"git-bas-iwd-o": ""},
+                {"git-bs-o": ""},
+                {"git-bs-fs-o": ""},
+                {"git-ux-o": ""}
+            ]
+        },
+        {
+            "name": "",
+            "term": 0,
+            "program": "",
+            "number": 0,
+            "credits": 3,
+            "description": "",
+            "minimum-grade": "",
+            "requirements": [
+
+            ],
+            "prerequisites": [
+
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus", 
+                "iCourse"
+            ],
+            "topics": [
+                "", 
+                ""
+            ],
+            "focusArea": "User Experience",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ],
+            "degreeAndTerm": [
+                {"git-bas": 0},
+                {"git-bas-iwd": 0},
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0},
+                {"git-bas-o": ""},
+                {"git-bas-iwd-o": ""},
+                {"git-bs-o": ""},
+                {"git-bs-fs-o": ""},
+                {"git-ux-o": ""}
+            ]
+        },
+        {
+            "name": "",
+            "term": 0,
+            "program": "",
+            "number": 0,
+            "credits": 3,
+            "description": "",
+            "minimum-grade": "",
+            "requirements": [
+
+            ],
+            "prerequisites": [
+
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus", 
+                "iCourse"
+            ],
+            "topics": [
+                "", 
+                ""
+            ],
+            "focusArea": "User Experience",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ],
+            "degreeAndTerm": [
+                {"git-bas": 0},
+                {"git-bas-iwd": 0},
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0},
+                {"git-bas-o": ""},
+                {"git-bas-iwd-o": ""},
+                {"git-bs-o": ""},
+                {"git-bs-fs-o": ""},
+                {"git-ux-o": ""}
+            ]
+        },
+        {
+            "name": "",
+            "term": 0,
+            "program": "",
+            "number": 0,
+            "credits": 3,
+            "description": "",
+            "minimum-grade": "",
+            "requirements": [
+
+            ],
+            "prerequisites": [
+
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus", 
+                "iCourse"
+            ],
+            "topics": [
+                "", 
+                ""
+            ],
+            "focusArea": "User Experience",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ],
+            "degreeAndTerm": [
+                {"git-bas": 0},
+                {"git-bas-iwd": 0},
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0},
+                {"git-bas-o": ""},
+                {"git-bas-iwd-o": ""},
+                {"git-bs-o": ""},
+                {"git-bs-fs-o": ""},
+                {"git-ux-o": ""}
+            ]
+        }
     ],
     "gitElectivesBs": [
         {
-            "term": 8,
             "hours": 3,
-            "suggested": "GIT484: Internship"
+            "division": "upper",
+            "suggested": "GIT484: Internship",
+            "degreeAndTerm": [
+                {"git-bs": "8"},
+                {"git-bs-o": "8B"}
+            ]
+        },
+        {
+            "hours": 3,
+            "division": "upper",
+            "suggested": "GIT Elective OR GIT484: Internship",
+            "degreeAndTerm": [
+                {"git-ux": "8"},
+                {"git-ux-o": "8A"}
+            ]
         }
     ],
     "electivesBs": [
         {
-            "term": 2,
-            "hours": 3
+            "hours": 3,
+            "division": "lower",
+            "degreeAndTerm": [
+                {"git-bs": "2"},
+                {"git-bs-o": "2A"}
+            ]
         },
         {
-            "term": 4,
-            "hours": 3
+            "hours": 3,
+            "division": "lower",
+            "degreeAndTerm": [
+                {"git-bs": "4"},
+                {"git-bs-fs": "4"},
+                {"git-ux": "4"},
+                {"git-bs-o": "4B"},
+                {"git-bs-fs-o": "4B"},
+                {"git-ux-o": "4B"}
+            ]
+        },
+        {
+            "hours": 3,
+            "division": "upper",
+            "suggested": "Full-Stack Elective",
+            "degreeAndTerm": [
+                {"git-bs-fs": "7"},
+                {"git-bs-fs-o": "7B"}
+            ]
+        },
+        {
+            "hours": 3,
+            "division": "upper",
+            "suggested": "",
+            "degreeAndTerm": [
+                {"git-bs-fs": "8"},
+                {"git-bs-fs-o": "8B"}
+            ]
         }
     ],
     "focusAreaCoursesBs": [
         {
             "type": "primary",
             "term": 5,
-            "credits": 3
+            "credits": 3,
+            "degreeAndTerm": [
+                {"git-bas": 0},
+                {"git-bas-iwd": 0},
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0},
+                {"git-bas-o": ""},
+                {"git-bas-iwd-o": ""},
+                {"git-bs-o": ""},
+                {"git-bs-fs-o": ""},
+                {"git-ux-o": ""}
+            ]
         },
         {
             "type": "secondary",
             "term": 5,
-            "credits": 3
+            "credits": 3,
+            "degreeAndTerm": [
+                {"git-bas": 0},
+                {"git-bas-iwd": 0},
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0},
+                {"git-bas-o": ""},
+                {"git-bas-iwd-o": ""},
+                {"git-bs-o": ""},
+                {"git-bs-fs-o": ""},
+                {"git-ux-o": ""}
+            ]
         },
         {
             "type": "primary",
             "term": 6,
-            "credits": 3
+            "credits": 3,
+            "degreeAndTerm": [
+                {"git-bas": 0},
+                {"git-bas-iwd": 0},
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0},
+                {"git-bas-o": ""},
+                {"git-bas-iwd-o": ""},
+                {"git-bs-o": ""},
+                {"git-bs-fs-o": ""},
+                {"git-ux-o": ""}
+            ]
         },
         {
             "type": "secondary",
             "term": 6,
-            "credits": 3
+            "credits": 3,
+            "degreeAndTerm": [
+                {"git-bas": 0},
+                {"git-bas-iwd": 0},
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0},
+                {"git-bas-o": ""},
+                {"git-bas-iwd-o": ""},
+                {"git-bs-o": ""},
+                {"git-bs-fs-o": ""},
+                {"git-ux-o": ""}
+            ]
         },
         {
             "type": "upper division primary",
             "term": 7,
-            "credits": 3
+            "credits": 3,
+            "degreeAndTerm": [
+                {"git-bas": 0},
+                {"git-bas-iwd": 0},
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0},
+                {"git-bas-o": ""},
+                {"git-bas-iwd-o": ""},
+                {"git-bs-o": ""},
+                {"git-bs-fs-o": ""},
+                {"git-ux-o": ""}
+            ]
         },
         {
             "type": "secondary",
             "term": 7,
-            "credits": 3
+            "credits": 3,
+            "degreeAndTerm": [
+                {"git-bas": 0},
+                {"git-bas-iwd": 0},
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0},
+                {"git-bas-o": ""},
+                {"git-bas-iwd-o": ""},
+                {"git-bs-o": ""},
+                {"git-bs-fs-o": ""},
+                {"git-ux-o": ""}
+            ]
         },
         {
             "type": "upper division primary",
             "term": 8,
-            "credits": 3
+            "credits": 3,
+            "degreeAndTerm": [
+                {"git-bas": 0},
+                {"git-bas-iwd": 0},
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0},
+                {"git-bas-o": ""},
+                {"git-bas-iwd-o": ""},
+                {"git-bs-o": ""},
+                {"git-bs-fs-o": ""},
+                {"git-ux-o": ""}
+            ]
         },
         {
             "type": "upper division secondary",
             "term": 8,
-            "credits": 3
+            "credits": 3,
+            "degreeAndTerm": [
+                {"git-bas": 0},
+                {"git-bas-iwd": 0},
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0},
+                {"git-bas-o": ""},
+                {"git-bas-iwd-o": ""},
+                {"git-bs-o": ""},
+                {"git-bs-fs-o": ""},
+                {"git-ux-o": ""}
+            ]
         }
     ],
     "commercialPhoto": [
@@ -1030,7 +2421,8 @@
                 
             ],
             "degreeAndTerm": [
-                {"git-bas-iwd": 0}
+                {"git-bas-iwd": 0},
+                {"git-bas-iwd-o": ""}
             ]
         },
         {
@@ -1068,7 +2460,12 @@
                 {"git-bas-iwd": 0},
                 {"git-bs": 0},
                 {"git-bs-fs": 0},
-                {"git-ux": 0}
+                {"git-ux": 0},
+                {"git-bas-o": ""},
+                {"git-bas-iwd-o": ""},
+                {"git-bs-o": ""},
+                {"git-bs-fs-o": ""},
+                {"git-ux-o": ""}
             ]
         },
         {
@@ -1106,7 +2503,12 @@
                 {"git-bas-iwd": 0},
                 {"git-bs": 0},
                 {"git-bs-fs": 0},
-                {"git-ux": 0}
+                {"git-ux": 0},
+                {"git-bas-o": ""},
+                {"git-bas-iwd-o": ""},
+                {"git-bs-o": ""},
+                {"git-bs-fs-o": ""},
+                {"git-ux-o": ""}
             ]
         },
         {
@@ -1144,7 +2546,12 @@
                 {"git-bas-iwd": 0},
                 {"git-bs": 0},
                 {"git-bs-fs": 0},
-                {"git-ux": 0}
+                {"git-ux": 0},
+                {"git-bas-o": ""},
+                {"git-bas-iwd-o": ""},
+                {"git-bs-o": ""},
+                {"git-bs-fs-o": ""},
+                {"git-ux-o": ""}
             ]
         }
     ],
@@ -1186,7 +2593,12 @@
                 {"git-bas-iwd": 0},
                 {"git-bs": 0},
                 {"git-bs-fs": 0},
-                {"git-ux": 0}
+                {"git-ux": 0},
+                {"git-bas-o": ""},
+                {"git-bas-iwd-o": ""},
+                {"git-bs-o": ""},
+                {"git-bs-fs-o": ""},
+                {"git-ux-o": ""}
             ]
         },
         {
@@ -1229,7 +2641,12 @@
                 {"git-bas-iwd": 0},
                 {"git-bs": 0},
                 {"git-bs-fs": 0},
-                {"git-ux": 0}
+                {"git-ux": 0},
+                {"git-bas-o": ""},
+                {"git-bas-iwd-o": ""},
+                {"git-bs-o": ""},
+                {"git-bs-fs-o": ""},
+                {"git-ux-o": ""}
             ]
         },
         {
@@ -1272,7 +2689,12 @@
                 {"git-bas-iwd": 0},
                 {"git-bs": 0},
                 {"git-bs-fs": 0},
-                {"git-ux": 0}
+                {"git-ux": 0},
+                {"git-bas-o": ""},
+                {"git-bas-iwd-o": ""},
+                {"git-bs-o": ""},
+                {"git-bs-fs-o": ""},
+                {"git-ux-o": ""}
             ]
         }
     ],
@@ -1312,7 +2734,12 @@
                 {"git-bas-iwd": 0},
                 {"git-bs": 0},
                 {"git-bs-fs": 0},
-                {"git-ux": 0}
+                {"git-ux": 0},
+                {"git-bas-o": ""},
+                {"git-bas-iwd-o": ""},
+                {"git-bs-o": ""},
+                {"git-bs-fs-o": ""},
+                {"git-ux-o": ""}
             ]
         }
     ],
@@ -1356,7 +2783,12 @@
             "degreeAndTerm": [
                 {"git-bas-iwd": 0},
                 {"git-bs-fs": 0},
-                {"git-ux": 0}
+                {"git-ux": 0},
+                {"git-bas-o": ""},
+                {"git-bas-iwd-o": ""},
+                {"git-bs-o": ""},
+                {"git-bs-fs-o": ""},
+                {"git-ux-o": ""}
             ]
         },
         {
@@ -1394,7 +2826,10 @@
             "degreeAndTerm": [
                 {"git-bas-iwd": 0},
                 {"git-bs-fs": 0},
-                {"git-ux": 0}
+                {"git-ux": 0},
+                {"git-bas-iwd-o": ""},
+                {"git-bs-fs-o": ""},
+                {"git-ux-o": ""}
             ]
         },
         {
@@ -1436,7 +2871,9 @@
             ],
             "degreeAndTerm": [
                 {"git-bas-iwd": 0},
-                {"git-bs-fs": 0}
+                {"git-bs-fs": 0},
+                {"git-bas-iwd-o": ""},
+                {"git-bs-fs-o": ""}
             ]
         },
         {
@@ -1485,7 +2922,8 @@
                 "git-bs-fs"
             ],
             "degreeAndTerm": [
-                {"git-bs-fs": 0}
+                {"git-bs-fs": 0},
+                {"git-bs-fs-o": ""}
             ]
         },
         {
@@ -1528,7 +2966,12 @@
                 {"git-bas-iwd": 0},
                 {"git-bs": 0},
                 {"git-bs-fs": 0},
-                {"git-ux": 0}
+                {"git-ux": 0},
+                {"git-bas-o": ""},
+                {"git-bas-iwd-o": ""},
+                {"git-bs-o": ""},
+                {"git-bs-fs-o": ""},
+                {"git-ux-o": ""}
             ]
         },
         {
@@ -1571,7 +3014,12 @@
                 {"git-bas-iwd": 0},
                 {"git-bs": 0},
                 {"git-bs-fs": 0},
-                {"git-ux": 0}
+                {"git-ux": 0},
+                {"git-bas-o": ""},
+                {"git-bas-iwd-o": ""},
+                {"git-bs-o": ""},
+                {"git-bs-fs-o": ""},
+                {"git-ux-o": ""}
             ]
         },
         {
@@ -1614,7 +3062,12 @@
                 {"git-bas-iwd": 0},
                 {"git-bs": 0},
                 {"git-bs-fs": 0},
-                {"git-ux": 0}
+                {"git-ux": 0},
+                {"git-bas-o": ""},
+                {"git-bas-iwd-o": ""},
+                {"git-bs-o": ""},
+                {"git-bs-fs-o": ""},
+                {"git-ux-o": ""}
             ]
         },
         {
@@ -1657,7 +3110,12 @@
                 {"git-bas-iwd": 0},
                 {"git-bs": 0},
                 {"git-bs-fs": 0},
-                {"git-ux": 0}
+                {"git-ux": 0},
+                {"git-bas-o": ""},
+                {"git-bas-iwd-o": ""},
+                {"git-bs-o": ""},
+                {"git-bs-fs-o": ""},
+                {"git-ux-o": ""}
             ]
         }
     ],
@@ -1703,7 +3161,9 @@
             ],
             "degreeAndTerm": [
                 {"git-bas-iwd": 0},
-                {"git-ux": 0}
+                {"git-ux": 0},
+                {"git-bas-iwd-o": ""},
+                {"git-ux-o": ""}
             ]
         },
         {
@@ -1743,7 +3203,16 @@
                 
             ],
             "degreeAndTerm": [
-
+                {"git-bas": 0},
+                {"git-bas-iwd": 0},
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0},
+                {"git-bas-o": ""},
+                {"git-bas-iwd-o": ""},
+                {"git-bs-o": ""},
+                {"git-bs-fs-o": ""},
+                {"git-ux-o": ""}
             ]
         },
         {
@@ -1782,7 +3251,16 @@
                 
             ],
             "degreeAndTerm": [
-
+                {"git-bas": 0},
+                {"git-bas-iwd": 0},
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0},
+                {"git-bas-o": ""},
+                {"git-bas-iwd-o": ""},
+                {"git-bs-o": ""},
+                {"git-bs-fs-o": ""},
+                {"git-ux-o": ""}
             ]
         },
         {
@@ -1822,7 +3300,8 @@
                 
             ],
             "degreeAndTerm": [
-                {"git-bas-iwd": 0}
+                {"git-bas-iwd": 0},
+                {"git-bas-iwd-o": 0}
             ]
         }
     ],
@@ -1867,7 +3346,12 @@
                 {"git-bas-iwd": 0},
                 {"git-bs": 0},
                 {"git-bs-fs": 0},
-                {"git-ux": 0}
+                {"git-ux": 0},
+                {"git-bas-o": ""},
+                {"git-bas-iwd-o": ""},
+                {"git-bs-o": ""},
+                {"git-bs-fs-o": ""},
+                {"git-ux-o": ""}
             ]
         },
         {
@@ -1910,7 +3394,12 @@
                 {"git-bas-iwd": 0},
                 {"git-bs": 0},
                 {"git-bs-fs": 0},
-                {"git-ux": 0}
+                {"git-ux": 0},
+                {"git-bas-o": ""},
+                {"git-bas-iwd-o": ""},
+                {"git-bs-o": ""},
+                {"git-bs-fs-o": ""},
+                {"git-ux-o": ""}
             ]
         },
         {
@@ -1953,7 +3442,12 @@
                 {"git-bas-iwd": 0},
                 {"git-bs": 0},
                 {"git-bs-fs": 0},
-                {"git-ux": 0}
+                {"git-ux": 0},
+                {"git-bas-o": ""},
+                {"git-bas-iwd-o": ""},
+                {"git-bs-o": ""},
+                {"git-bs-fs-o": ""},
+                {"git-ux-o": ""}
             ]
         }
     ],
@@ -1998,7 +3492,12 @@
                 {"git-bas-iwd": 0},
                 {"git-bs": 0},
                 {"git-bs-fs": 0},
-                {"git-ux": 0}
+                {"git-ux": 0},
+                {"git-bas-o": ""},
+                {"git-bas-iwd-o": ""},
+                {"git-bs-o": ""},
+                {"git-bs-fs-o": ""},
+                {"git-ux-o": ""}
             ]
         }
     ]

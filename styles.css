@@ -373,8 +373,8 @@ main > div, main > section{
     margin: 0 auto;
 }
 
-/* Paragraph Styles */
-p{
+/* Paragraph/List Styles */
+p, main dl{
     width: 100%;
     max-width: 75ch;
     margin: 0 auto;
@@ -442,6 +442,28 @@ select{
     width: 85% !important;
 }
 
+.error-text{
+    color: var(--error);
+}
+
+.all-caps{
+    text-transform: uppercase;
+}
+
+i.warning{
+    content: url("images/triangle-exclamation-solid.svg");
+    width: 1em;
+    height: 1em;
+    color: var(--error);
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.warning{
+    fill: var(--error);
+    color: var(--error);
+}
+
 .ui-corner-all.ui-widget, .ui-selectmenu-button.ui-button, .ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl{
     border-radius: 0;
     background-color: var(--wht);
@@ -482,17 +504,26 @@ select{
     width: 75%;
 }
 
+#prog-selection > div{
+    width: 234px;
+}
+
 #prog-selection dt{
     font-size: 1.25rem;
     font-weight: bold;
-    order: -1;
+    margin-bottom: 8px;
 }
 
 #prog-selection dt, #prog-selection dd{
-    width: 200px;
+    width: 100%;
 }
 
-#prog-selection dd::first-letter{
+#prog-selection dd{
+    display: flex;
+    align-items: center;
+}
+
+#loc::first-letter{
     text-transform: capitalize;
 }
 
@@ -516,9 +547,23 @@ button{
     gap: 16px;
 }
 
-/* Shared Heading Styles */
+/* Accordion Styles */
+#accordion{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#accordion .ui-corner-all.ui-widget, #accordion .ui-selectmenu-button.ui-button, #accordion .ui-corner-all, #accordion .ui-corner-left, #accordion .ui-corner-bl{
+    width: calc(100% - 33px) !important;
+}
+
+#accordion .ui-corner-bottom{
+    width: calc(100% - 45px);
+}
+
 .ui-accordion .ui-accordion-header{
-    /* background: none;
+    background: none;
     background-color: var(--wht);
     border-top: 1px solid var(--gray3);
     border-bottom: 1px solid var(--gray3);
@@ -528,74 +573,78 @@ button{
     font-size: 1.25rem;
     color: var(--gray7);
     width: calc(100% - 33px);
-    max-width: 700px;
+    /* max-width: 700px; */
     margin: 0 auto;
     text-align: left;
     display: flex;
     justify-content: space-between;
-    align-items: center; */
+    align-items: center;
 }
 
-h3.ui-accordion-header.ui-corner-top.ui-state-default.ui-accordion-header-active.ui-state-active{
-    /* margin: 0 auto; */
+h4.ui-accordion-header.ui-corner-top.ui-state-default.ui-accordion-header-active.ui-state-active{
+    margin: 0 auto;
 }
 
-h3.ui-accordion-header.ui-corner-top.ui-accordion-header-collapsed.ui-corner-all.ui-state-default, h3.ui-accordion-header.ui-corner-top.ui-accordion-header-collapsed.ui-corner-all.ui-state-default.ui-state-hover{
-    /* margin: 0 auto 24px auto; */
+h4.ui-accordion-header.ui-corner-top.ui-accordion-header-collapsed.ui-corner-all.ui-state-default, h4.ui-accordion-header.ui-corner-top.ui-accordion-header-collapsed.ui-corner-all.ui-state-default.ui-state-hover{
+    margin: 0 auto 8px auto;
 }
 
 /* Heading on Hover */
-h3.ui-accordion-header.ui-corner-top.ui-accordion-header-collapsed.ui-corner-all.ui-state-default.ui-state-hover{
-    /* background-color: var(--gray3); */
+h4.ui-accordion-header.ui-corner-top.ui-accordion-header-collapsed.ui-corner-all.ui-state-default.ui-state-hover{
+    background-color: var(--gray3);
 }
 
 /* Active Heading Styles */
-h3.ui-accordion-header.ui-corner-top.ui-state-default.ui-accordion-header-active.ui-state-active{
-    /* padding: 8px 10px; */
+h4.ui-accordion-header.ui-corner-top.ui-state-default.ui-accordion-header-active.ui-state-active{
+    padding: 8px 10px;
 }
 
 /* Hover Heading Styles */
-/* h3.ui-accordion-header.ui-corner-top.ui-state-default.ui-accordion-header-active.ui-state-active */
-#accordion h3:focus, #accordion h3:focus-visible{
-    /* outline: 4px solid var(--gold);
-    outline-offset: 2px; */
+h3.ui-accordion-header.ui-corner-top.ui-state-default.ui-accordion-header-active.ui-state-active
+#accordion h4:focus, #accordion h4:focus-visible{
+    outline: 4px solid var(--gold);
+    outline-offset: 2px;
 }
 
 /* Headings When the Accordion Panel is Collapsed */
-h3.ui-accordion-header.ui-corner-top.ui-accordion-header-collapsed.ui-corner-all.ui-state-default span.fa-solid.fa-chevron-down{
-    /* display: inline-block;
-    content: url("images/chevron-down-solid.svg");
-    width: 1.5rem;
-    height: 1.5rem;
-    color: var(--gray7); */
-}
-
-/* h3.ui-state-hover .fa-solid.fa-chevron-down, h3.ui-state-focus .fa-solid.fa-chevron-down{
+h4.ui-accordion-header.ui-corner-top.ui-accordion-header-collapsed.ui-corner-all.ui-state-default span.fa-solid.fa-chevron-down{
     display: inline-block;
     content: url("images/chevron-down-solid.svg");
     width: 1.5rem;
     height: 1.5rem;
     color: var(--gray7);
-} */
-
-/* Headings When the Accordion Panel is Open */
-h3.ui-accordion-header.ui-corner-top.ui-state-default.ui-accordion-header-active.ui-state-active span.fa-solid.fa-chevron-down{
-    /* transform: rotate(180deg); */
 }
 
-/* Heading Arrows (Default) */
-.ui-accordion .ui-accordion-header span.fa-solid.fa-chevron-down{
-    /* display: inline-block;
+h4.ui-state-hover .fa-solid.fa-chevron-down, h4.ui-state-focus .fa-solid.fa-chevron-down{
+    display: inline-block;
     content: url("images/chevron-down-solid.svg");
     width: 1.5rem;
     height: 1.5rem;
     color: var(--gray7);
-    transition: all 500ms; */
+}
+
+/* Headings When the Accordion Panel is Open */
+h4.ui-accordion-header.ui-corner-top.ui-state-default.ui-accordion-header-active.ui-state-active span.fa-solid.fa-chevron-down{
+    transform: rotate(180deg);
+}
+
+/* Heading Arrows (Default) */
+.ui-accordion .ui-accordion-header span.fa-solid.fa-chevron-down{
+    display: inline-block;
+    content: url("images/chevron-down-solid.svg");
+    width: 1.5rem;
+    height: 1.5rem;
+    color: var(--gray7);
+    transition: all 500ms;
+}
+
+.ui-icon-triangle-1-e, .ui-state-active .ui-icon, .ui-button:active .ui-icon{
+    display: none;
 }
 
 /* Sections of Accordion When Open */
-#accordion section{
-    /* width: calc(100% - 45px) !important;
+#accordion div{
+    width: calc(100% - 45px) !important;
     margin: 0 auto 24px auto !important;
     padding: 16px !important;
     background: none;
@@ -608,17 +657,18 @@ h3.ui-accordion-header.ui-corner-top.ui-state-default.ui-accordion-header-active
     border-radius: 0;
     font-size: 1rem;
     position: relative;
-    transition: all 300ms; */
+    transition: all 300ms;
     /* left: 5px; */
 }
 
 /* Accordion Link Styles */
-#accordion section a{
-    /* padding: 8px;
-    width: fit-content;
-    margin: 8px 0 0 0;
+#accordion div a{
+    padding: 8px;
+    width: 100%;
+    max-width: 75ch;
+    margin: 8px auto 0 auto;
     color: var(--maroon);
-    font-weight: bold; */
+    font-weight: bold;
 }
 
 #accordion dd{
