@@ -3942,17 +3942,6 @@
             ]
         }
     ],
-    "gitElectivesBs": [
-        {
-            "hours": 3,
-            "division": "upper",
-            "suggested": "GIT484: Internship",
-            "degreeAndTerm": [
-                {"git-bs": "8"},
-                {"git-bs-o": "8B"}
-            ]
-        }
-    ],
     "electivesBs": [
         {
             "hours": 3,
@@ -3968,6 +3957,15 @@
             "degreeAndTerm": [
                 {"git-bs": "4"},
                 {"git-bs-o": "4B"}
+            ]
+        },
+        {
+            "hours": 3,
+            "division": "upper",
+            "suggested": "GIT484: Internship",
+            "degreeAndTerm": [
+                {"git-bs": "8"},
+                {"git-bs-o": "8B"}
             ]
         }
     ],
@@ -4573,9 +4571,7 @@
             "requirements": [
                 "none"
             ],
-            "prerequisites": [
-
-            ],
+            "prerequisites": [],
             "semesters": [
                 "fall"
             ],
@@ -4620,7 +4616,7 @@
             ],
             "prerequisites": [
                 "ENG102",
-                "min45Hours"
+                "Minimum of 45 Credit Hours"
             ],
             "semesters": [
                 "fall", 
@@ -4919,9 +4915,7 @@
             "requirements": [
                 "minimum junior standing OR Visiting University Student"
             ],
-            "prerequisites": [
-
-            ],
+            "prerequisites": [],
             "semesters": [
                 "fall", 
                 "spring", 
@@ -4969,7 +4963,8 @@
             "description": "Strengthens design elements and principles. Explores, creates and critiques cross-media design work for print and digital outputs.",
             "minimum-grade": "none",
             "requirements": [
-                "GIT 303; Credit is allowed for only GIT 350 or GIT 494 (Cross-Media Design Solutions) OR Visiting University Student"
+                "GIT 303",
+                "Credit is allowed for only GIT 350 or GIT 494 (Cross-Media Design Solutions) OR Visiting University Student"
             ],
             "prerequisites": [
                 "GIT303"
@@ -5020,9 +5015,7 @@
             "requirements": [
                 "minimum junior standing; Credit is allowed for only GIT 402 or GIT 502"
             ],
-            "prerequisites": [
-
-            ],
+            "prerequisites": [],
             "semesters": [
                 "fall", 
                 "spring", 
@@ -5268,56 +5261,6 @@
                 
             ],
             "focusArea": "Motion Graphics",
-            "equivalents": [
-                
-            ],
-            "generalStudies": [
-                
-            ],
-            "degreeAndTerm": [
-                {"git-bas": 0},
-                {"git-bas-iwd": 0},
-                {"git-bs": 0},
-                {"git-bs-fs": 0},
-                {"git-ux": 0},
-                {"git-bas-o": ""},
-                {"git-bas-iwd-o": ""},
-                {"git-bs-o": ""},
-                {"git-bs-fs-o": ""},
-                {"git-ux-o": ""}
-            ]
-        }
-    ],
-    "userExperience": [
-        {
-            "name": "",
-            "course": "",
-            "program": "",
-            "number": 0,
-            "credits": 3,
-            "description": "",
-            "minimum-grade": "",
-            "requirements": [
-
-            ],
-            "prerequisites": [
-
-            ],
-            "semesters": [
-                "fall", 
-                "spring", 
-                "summer"
-            ],
-            "formats": [
-                "online", 
-                "campus", 
-                "iCourse"
-            ],
-            "topics": [
-                "", 
-                ""
-            ],
-            "focusArea": "User Experience",
             "equivalents": [
                 
             ],

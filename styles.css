@@ -123,6 +123,7 @@ body{
     font-size: 1.1rem;
     box-sizing: border-box;
 	background-color: var(--gray7); 	
+    color: var(--gray7);
 	line-height: 1.5;
 }
 
@@ -219,7 +220,7 @@ img{
 }
 
 /* Shared Heading Styles */
-h1, h2, h3, h4, h5{
+h1, h2, h3, h4, h5, h6{
     font-weight: bold;
     width: fit-content;
     letter-spacing: -0.5px;
@@ -268,6 +269,11 @@ h4{
 h5{
     font-size: 1.35rem;
     line-height: 1.85rem;
+}
+
+h6{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
 }
 
 /* Navigation Styles */
@@ -400,6 +406,55 @@ p, main dl{
     margin: 16px auto;
 }
 
+/* Focus Area Courses Section Styles */
+/* For Each Collection of Focus Area Courses */
+#primary > section > section{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 16px;
+    margin-top: 32px;
+}
+
+#primary h4{
+    font-size: 1.75rem;
+    color: var(--gray7);
+    background-color: transparent;
+    grid-column: 1/-1;
+}
+
+#primary section > section > section{
+    border: 1px solid var(--gray3);
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    max-height: 432px;
+    overflow: scroll;
+}
+
+#primary h5{
+    font-size: 1.5rem;
+    color: var(--gray7);
+    background-color: transparent;
+    grid-column: 1/-1;
+}
+
+#primary h6 span{
+    display: block;
+    margin-top: 16px;
+    font-weight: normal;
+}
+
+#primary dt{
+    font-weight: bold;
+    margin-top: 12px;
+    font-size: 1.35rem;
+}
+
+#primary dd{
+    padding-left: 16px;
+}
+
 /* Paragraph About Images */
 .additional-info{
     /* font-style: italic;
@@ -438,6 +493,11 @@ form label{
     width: 97%;
     height: 8px;
     background-color: var(--error);
+}
+
+#prog-loc-button.error-border, #deg-progs-button.error-border{
+    border-color: var(--error);
+    height: auto;
 }
 
 .ui-front.ui-selectmenu-open{
