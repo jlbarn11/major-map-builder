@@ -434,6 +434,12 @@ form label{
     font-weight: 600;
 }
 
+.error-border{
+    width: 97%;
+    height: 8px;
+    background-color: var(--error);
+}
+
 .ui-front.ui-selectmenu-open{
 
 }

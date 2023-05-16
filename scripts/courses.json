@@ -4018,7 +4018,7 @@
             ]
         }
     ],
-    "fullStackElectives": [
+    "fullStackElectivesOpts": [
         {
             "name": "Intermediate Database Management Systems",
             "course": "IFT300",
