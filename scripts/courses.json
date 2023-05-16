@@ -4347,15 +4347,20 @@
                 "GIT230"
             ],
             "semesters": [
-                "fall", "spring", "summer"
+                "fall",
+                "spring",
+                "summer"
             ],
             "formats": [
-                "online", "campus", "iCourse"
+                "online",
+                "campus",
+                "iCourse"
             ],
             "topics": [
-                "Adobe Photoshop", "image file editing and manipulation"
+                "Adobe Photoshop",
+                "image file editing and manipulation"
             ],
-            "focusArea": "commercial photography",
+            "focusArea": "Commercial Photography",
             "equivalents": [
                 
             ],
@@ -4364,12 +4369,12 @@
             ],
             "degreeAndTerm": [
                 {"git-bas": 0},
-                {"git-bas-iwd": 0},
+                {"git-bas-iwd": "5"},
                 {"git-bs": 0},
                 {"git-bs-fs": 0},
                 {"git-ux": 0},
                 {"git-bas-o": ""},
-                {"git-bas-iwd-o": ""},
+                {"git-bas-iwd-o": "5B"},
                 {"git-bs-o": ""},
                 {"git-bs-fs-o": ""},
                 {"git-ux-o": ""}
@@ -4382,7 +4387,7 @@
             "number": 437,
             "credits": 3,
             "description": "Scientific analysis for the engineering of color reproduction systems and color models used in the graphics industry.",
-            "minimum-grade": "",
+            "minimum-grade": "none",
             "requirements": [
                 "GIT 334; Credit is allowed for only GIT 437 or GIT 573"
             ],
@@ -4393,12 +4398,14 @@
                 "spring"
             ],
             "formats": [
-                "online", "iCourse"
+                "online",
+                "iCourse"
             ],
             "topics": [
-                "color reproduction systems", "color models"
+                "color reproduction systems",
+                "color models"
             ],
-            "focusArea": "commercial photo",
+            "focusArea": "Commercial Photography",
             "equivalents": [
                 
             ],
@@ -4419,29 +4426,31 @@
             ]
         },
         {
-            "name": "",
-            "course": "",
-            "program": "",
-            "number": 0,
+            "name": "360 Production",
+            "course": "GIT445",
+            "program": "GIT",
+            "number": 445,
             "credits": 3,
-            "description": "",
-            "minimum-grade": "",
+            "description": "Overview of 360 photo and video capture and editing, immersive storytelling, and 360/VR. Students explore immersive storytelling (spherical/360/180) by producing various forms of VR video and photos and examining their use in communication, entertainment and industrial applications. Emphasizes technical skills required to produce immersive content from capture to distribution using industry standard NLE and specialty software. In addition, students actively research and analyze the role of this emerging technology and communication medium. Requires prior knowledge of video editing.",
+            "minimum-grade": "none",
             "requirements": [
-
+                "GIT 315",
+                "Credit is allowed for only GIT 445 or GIT 494 (360 Production) or GIT 545 or GIT 598 (360 Production) OR Visiting University Student"
             ],
             "prerequisites": [
-
+                "GIT315"
             ],
             "semesters": [
-                "fall", "spring", "summer"
+                "spring"
             ],
             "formats": [
-                "online", "campus", "iCourse"
+                "online",
+                "campus"
             ],
             "topics": [
-                "", ""
+                
             ],
-            "focusArea": "all",
+            "focusArea": "Commercial Photography",
             "equivalents": [
                 
             ],
@@ -4462,29 +4471,31 @@
             ]
         },
         {
-            "name": "",
-            "course": "",
-            "program": "",
-            "number": 0,
+            "name": "Advanced Commercial Photography",
+            "course": "GIT490",
+            "program": "GIT",
+            "number": 490,
             "credits": 3,
-            "description": "",
-            "minimum-grade": "",
+            "description": "Studio-based class focusing on set design, advanced photographic techniques, raw workflow, marketing, business, and digital rights management.",
+            "minimum-grade": "none",
             "requirements": [
-
+                "GIT 384"
             ],
             "prerequisites": [
-
+                "GIT 384"
             ],
             "semesters": [
-                "fall", "spring", "summer"
+                "fall",
+                "spring"
             ],
             "formats": [
-                "online", "campus", "iCourse"
+                "online",
+                "campus"
             ],
             "topics": [
-                "", ""
+                
             ],
-            "focusArea": "all",
+            "focusArea": "Commercial Photography",
             "equivalents": [
                 
             ],
@@ -4552,32 +4563,27 @@
             ]
         },
         {
-            "name": "",
-            "course": "",
-            "program": "",
-            "number": 0,
+            "name": "Structural and Aesthetic Package Design",
+            "course": "GIT494",
+            "program": "GIT",
+            "number": 494,
             "credits": 3,
-            "description": "",
-            "minimum-grade": "",
+            "description": "This course covers the basics of packaging design, including terminology, design theories (color, imagery, typography), and design psychologies as they pertain to designing the exterior of product packages. Additionally, structural packaging design and sustainable packaging will be studied. Students in this course will be designing and building several individual and sets of packages. Adobe InDesign and Adobe Illustrator will be used in the course, so students should have a good understanding of and practice with those applications. Adaptive/Active learning system used.",
+            "minimum-grade": "none",
             "requirements": [
-
+                "none"
             ],
             "prerequisites": [
 
             ],
             "semesters": [
-                "fall", 
-                "spring", 
-                "summer"
+                "fall"
             ],
             "formats": [
-                "online", 
-                "campus", 
-                "iCourse"
+                "campus"
             ],
             "topics": [
-                "", 
-                ""
+                
             ],
             "focusArea": "Commercial Print",
             "equivalents": [
@@ -4600,18 +4606,21 @@
             ]
         },
         {
-            "name": "",
-            "course": "",
-            "program": "",
-            "number": 0,
+            "name": "Principles of Visual Communication",
+            "course": "TWC411",
+            "program": "TWC",
+            "number": 411,
             "credits": 3,
-            "description": "",
-            "minimum-grade": "",
+            "description": "Principles and tools of visual communication in print and electronic media, with an emphasis on document design, including typography and color.",
+            "minimum-grade": "none",
             "requirements": [
-
+                "ENG 102, 105, or 108 with C or better",
+                "minimum 45 hours",
+                "Credit is allowed for only TWC 411 or TWC 511 OR Visiting University Student"
             ],
             "prerequisites": [
-
+                "ENG102",
+                "min45Hours"
             ],
             "semesters": [
                 "fall", 
@@ -4624,8 +4633,7 @@
                 "iCourse"
             ],
             "topics": [
-                "", 
-                ""
+                
             ],
             "focusArea": "Commercial Print",
             "equivalents": [
@@ -4650,29 +4658,31 @@
     ],
     "commercialVideo": [
         {
-            "name": "",
-            "course": "",
-            "program": "",
-            "number": 0,
+            "name": "Advanced Digital Video Techniques",
+            "course": "GIT415",
+            "program": "GIT",
+            "number": 415,
             "credits": 3,
-            "description": "",
-            "minimum-grade": "",
+            "description": "Advanced video creation and editing techniques including motion graphics, green screen technology, audio sweetening, crew and commercial production. Course culminates with a completed video production that is commercial and professional in nature.",
+            "minimum-grade": "none",
             "requirements": [
-
+                "GIT315"
             ],
             "prerequisites": [
-
+                "GIT315"
             ],
             "semesters": [
-                "fall", "spring", "summer"
+                "fall", 
+                "spring"
             ],
             "formats": [
-                "online", "campus", "iCourse"
+                "online", 
+                "campus"
             ],
             "topics": [
-                "", ""
+                
             ],
-            "focusArea": "all",
+            "focusArea": "Commercial Video",
             "equivalents": [
                 
             ],
@@ -4895,198 +4905,6 @@
                 {"git-bs-fs-o": "8B"},
                 {"git-ux-o": ""}
             ]
-        },
-        {
-            "name": "",
-            "course": "",
-            "program": "",
-            "number": 0,
-            "credits": 3,
-            "description": "",
-            "minimum-grade": "",
-            "requirements": [
-
-            ],
-            "prerequisites": [
-
-            ],
-            "semesters": [
-                "fall", 
-                "spring", 
-                "summer"
-            ],
-            "formats": [
-                "online", 
-                "campus", 
-                "iCourse"
-            ],
-            "topics": [
-                "", 
-                ""
-            ],
-            "focusArea": "Front-End Web Development",
-            "equivalents": [
-                
-            ],
-            "generalStudies": [
-                
-            ],
-            "degreeAndTerm": [
-                {"git-bas": 0},
-                {"git-bas-iwd": 0},
-                {"git-bs": 0},
-                {"git-bs-fs": 0},
-                {"git-ux": 0},
-                {"git-bas-o": ""},
-                {"git-bas-iwd-o": ""},
-                {"git-bs-o": ""},
-                {"git-bs-fs-o": ""},
-                {"git-ux-o": ""}
-            ]
-        },
-        {
-            "name": "",
-            "course": "",
-            "program": "",
-            "number": 0,
-            "credits": 3,
-            "description": "",
-            "minimum-grade": "",
-            "requirements": [
-
-            ],
-            "prerequisites": [
-
-            ],
-            "semesters": [
-                "fall", 
-                "spring", 
-                "summer"
-            ],
-            "formats": [
-                "online", 
-                "campus", 
-                "iCourse"
-            ],
-            "topics": [
-                "", 
-                ""
-            ],
-            "focusArea": "Front-End Web Development",
-            "equivalents": [
-                
-            ],
-            "generalStudies": [
-                
-            ],
-            "degreeAndTerm": [
-                {"git-bas": 0},
-                {"git-bas-iwd": 0},
-                {"git-bs": 0},
-                {"git-bs-fs": 0},
-                {"git-ux": 0},
-                {"git-bas-o": ""},
-                {"git-bas-iwd-o": ""},
-                {"git-bs-o": ""},
-                {"git-bs-fs-o": ""},
-                {"git-ux-o": ""}
-            ]
-        },
-        {
-            "name": "",
-            "course": "",
-            "program": "",
-            "number": 0,
-            "credits": 3,
-            "description": "",
-            "minimum-grade": "",
-            "requirements": [
-
-            ],
-            "prerequisites": [
-
-            ],
-            "semesters": [
-                "fall", 
-                "spring", 
-                "summer"
-            ],
-            "formats": [
-                "online", 
-                "campus", 
-                "iCourse"
-            ],
-            "topics": [
-                "", 
-                ""
-            ],
-            "focusArea": "Front-End Web Development",
-            "equivalents": [
-                
-            ],
-            "generalStudies": [
-                
-            ],
-            "degreeAndTerm": [
-                {"git-bas": 0},
-                {"git-bas-iwd": 0},
-                {"git-bs": 0},
-                {"git-bs-fs": 0},
-                {"git-ux": 0},
-                {"git-bas-o": ""},
-                {"git-bas-iwd-o": ""},
-                {"git-bs-o": ""},
-                {"git-bs-fs-o": ""},
-                {"git-ux-o": ""}
-            ]
-        },
-        {
-            "name": "",
-            "course": "",
-            "program": "",
-            "number": 0,
-            "credits": 3,
-            "description": "",
-            "minimum-grade": "",
-            "requirements": [
-
-            ],
-            "prerequisites": [
-
-            ],
-            "semesters": [
-                "fall", 
-                "spring", 
-                "summer"
-            ],
-            "formats": [
-                "online", 
-                "campus", 
-                "iCourse"
-            ],
-            "topics": [
-                "", 
-                ""
-            ],
-            "focusArea": "Front-End Web Development",
-            "equivalents": [
-                
-            ],
-            "generalStudies": [
-                
-            ],
-            "degreeAndTerm": [
-                {"git-bas": 0},
-                {"git-bas-iwd": 0},
-                {"git-bs": 0},
-                {"git-bs-fs": 0},
-                {"git-ux": 0},
-                {"git-bas-o": ""},
-                {"git-bas-iwd-o": ""},
-                {"git-bs-o": ""},
-                {"git-bs-fs-o": ""},
-                {"git-ux-o": ""}
-            ]
         }
     ],
     "interactionDesign": [
@@ -5131,15 +4949,15 @@
             ],
             "degreeAndTerm": [
                 {"git-bas": 0},
-                {"git-bas-iwd": 0},
+                {"git-bas-iwd": "5"},
                 {"git-bs": 0},
                 {"git-bs-fs": 0},
-                {"git-ux": 0},
+                {"git-ux": "6"},
                 {"git-bas-o": ""},
-                {"git-bas-iwd-o": ""},
+                {"git-bas-iwd-o": "5B"},
                 {"git-bs-o": ""},
                 {"git-bs-fs-o": ""},
-                {"git-ux-o": ""}
+                {"git-ux-o": "6A"}
             ]
         },
         {
@@ -5216,8 +5034,7 @@
                 "iCourse"
             ],
             "topics": [
-                "", 
-                ""
+                
             ],
             "focusArea": "Interaction Design",
             "equivalents": [
@@ -5277,12 +5094,12 @@
             ],
             "degreeAndTerm": [
                 {"git-bas": 0},
-                {"git-bas-iwd": 0},
+                {"git-bas-iwd": "8"},
                 {"git-bs": 0},
                 {"git-bs-fs": 0},
                 {"git-ux": 0},
                 {"git-bas-o": ""},
-                {"git-bas-iwd-o": ""},
+                {"git-bas-iwd-o": "8A"},
                 {"git-bs-o": ""},
                 {"git-bs-fs-o": ""},
                 {"git-ux-o": ""}
@@ -5291,32 +5108,27 @@
     ],
     "motionGraphics": [
         {
-            "name": "",
-            "course": "",
-            "program": "",
-            "number": 0,
+            "name": "Topic: Spatial Design",
+            "course": "GIT494",
+            "program": "GIT",
+            "number": 494,
             "credits": 3,
-            "description": "",
-            "minimum-grade": "",
+            "description": "Covers topics of immediate or special interest to a faculty member and students.",
+            "minimum-grade": "none",
             "requirements": [
-
+                "none"
             ],
             "prerequisites": [
 
             ],
             "semesters": [
-                "fall", 
-                "spring", 
-                "summer"
+                "fall"
             ],
             "formats": [
-                "online", 
-                "campus", 
-                "iCourse"
+                "campus"
             ],
             "topics": [
-                "", 
-                ""
+                
             ],
             "focusArea": "Motion Graphics",
             "equivalents": [
@@ -5339,32 +5151,29 @@
             ]
         },
         {
-            "name": "",
-            "course": "",
-            "program": "",
-            "number": 0,
+            "name": "3D Media Production",
+            "course": "GIT211",
+            "program": "GIT",
+            "number": 211,
             "credits": 3,
-            "description": "",
-            "minimum-grade": "",
+            "description": "Introduces basic 3D workflows and techniques. Topics covered include visual storytelling and composition, project workflows, 3D modeling, virtual cameras, texturing, shading and rendering.",
+            "minimum-grade": "none",
             "requirements": [
-
+                "GIT 230 with C or better OR Visiting University Student"
             ],
             "prerequisites": [
-
+                "GIT230"
             ],
             "semesters": [
                 "fall", 
-                "spring", 
-                "summer"
+                "spring"
             ],
             "formats": [
                 "online", 
-                "campus", 
-                "iCourse"
+                "campus"
             ],
             "topics": [
-                "", 
-                ""
+                
             ],
             "focusArea": "Motion Graphics",
             "equivalents": [
@@ -5387,18 +5196,18 @@
             ]
         },
         {
-            "name": "",
-            "course": "",
-            "program": "",
-            "number": 0,
+            "name": "Computer Animation and Motion Graphics",
+            "course": "GIT312",
+            "program": "GIT",
+            "number": 312,
             "credits": 3,
-            "description": "",
-            "minimum-grade": "",
+            "description": "Covers basic 2D/3D animation and motion graphic techniques and principles. Topics covered include project workflows, key frames, path animation, motion principles, hierarchical structures, animated textures, lights, and cameras.",
+            "minimum-grade": "none",
             "requirements": [
-
+                "GIT 211 OR Visiting University Student"
             ],
             "prerequisites": [
-
+                "GIT211"
             ],
             "semesters": [
                 "fall", 
@@ -5407,12 +5216,56 @@
             ],
             "formats": [
                 "online", 
-                "campus", 
-                "iCourse"
+                "campus"
             ],
             "topics": [
-                "", 
-                ""
+                
+            ],
+            "focusArea": "Motion Graphics",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                "CS"
+            ],
+            "degreeAndTerm": [
+                {"git-bas": 0},
+                {"git-bas-iwd": 0},
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0},
+                {"git-bas-o": ""},
+                {"git-bas-iwd-o": ""},
+                {"git-bs-o": ""},
+                {"git-bs-fs-o": ""},
+                {"git-ux-o": ""}
+            ]
+        },
+        {
+            "name": "Visual Narrative in Motion Graphics",
+            "course": "GIT411",
+            "program": "GIT",
+            "number": 411,
+            "credits": 3,
+            "description": "Students acquire project experience refining skills in communication, research, critical analysis and criticism, while exploring visual story construction, graphic workflows and process pipelines for motion-based applications. Topics include story conceptualizing and structures, project management, visual composition and motion graphic techniques.",
+            "minimum-grade": "none",
+            "requirements": [
+                "GIT 312 OR Visiting University Student"
+            ],
+            "prerequisites": [
+                "GIT312"
+            ],
+            "semesters": [
+                "fall", 
+                "spring", 
+                "summer"
+            ],
+            "formats": [
+                "online", 
+                "campus"
+            ],
+            "topics": [
+                
             ],
             "focusArea": "Motion Graphics",
             "equivalents": [
@@ -5465,6 +5318,236 @@
                 ""
             ],
             "focusArea": "User Experience",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ],
+            "degreeAndTerm": [
+                {"git-bas": 0},
+                {"git-bas-iwd": 0},
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0},
+                {"git-bas-o": ""},
+                {"git-bas-iwd-o": ""},
+                {"git-bs-o": ""},
+                {"git-bs-fs-o": ""},
+                {"git-ux-o": ""}
+            ]
+        }
+    ],
+    "allFocusAreas": [
+        {
+            "name": "Topic: Creative Agency",
+            "course": "GIT494",
+            "program": "GIT",
+            "number": 494,
+            "credits": 3,
+            "description": "Covers topics of immediate or special interest to a faculty member and students.",
+            "minimum-grade": "none",
+            "requirements": [
+                "Instructor consent"
+            ],
+            "prerequisites": [
+
+            ],
+            "semesters": [
+                "fall", 
+                "spring"
+            ],
+            "formats": [
+                "online", 
+                "campus"
+            ],
+            "topics": [
+                
+            ],
+            "focusArea": "All",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ],
+            "degreeAndTerm": [
+                {"git-bas": 0},
+                {"git-bas-iwd": 0},
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0},
+                {"git-bas-o": ""},
+                {"git-bas-iwd-o": ""},
+                {"git-bs-o": ""},
+                {"git-bs-fs-o": ""},
+                {"git-ux-o": ""}
+            ]
+        },
+        {
+            "name": "Topic: Creative Agency 2",
+            "course": "GIT494",
+            "program": "GIT",
+            "number": 494,
+            "credits": 3,
+            "description": "Covers topics of immediate or special interest to a faculty member and students.",
+            "minimum-grade": "none",
+            "requirements": [
+                "Instructor consent"
+            ],
+            "prerequisites": [
+
+            ],
+            "semesters": [
+                "fall", 
+                "spring"
+            ],
+            "formats": [
+                "online", 
+                "campus"
+            ],
+            "topics": [
+                
+            ],
+            "focusArea": "All",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ],
+            "degreeAndTerm": [
+                {"git-bas": 0},
+                {"git-bas-iwd": 0},
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0},
+                {"git-bas-o": ""},
+                {"git-bas-iwd-o": ""},
+                {"git-bs-o": ""},
+                {"git-bs-fs-o": ""},
+                {"git-ux-o": ""}
+            ]
+        },
+        {
+            "name": "Honors Directed Study",
+            "course": "GIT492",
+            "program": "GIT",
+            "number": 492,
+            "credits": "1-6",
+            "description": "Independent study in which a student, under the supervision of a faculty member, conducts research or creative work that is expected to lead to an undergraduate honors thesis or creative project.",
+            "minimum-grade": "none",
+            "requirements": [
+                "Department consent",
+                "Barrett Honors student"
+            ],
+            "prerequisites": [
+                "Barrett Honors student"
+            ],
+            "semesters": [
+                "fall", 
+                "spring"
+            ],
+            "formats": [
+                "online", 
+                "campus"
+            ],
+            "topics": [
+                
+            ],
+            "focusArea": "All",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ],
+            "degreeAndTerm": [
+                {"git-bas": 0},
+                {"git-bas-iwd": 0},
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0},
+                {"git-bas-o": ""},
+                {"git-bas-iwd-o": ""},
+                {"git-bs-o": ""},
+                {"git-bs-fs-o": ""},
+                {"git-ux-o": ""}
+            ]
+        },
+        {
+            "name": "Honors Thesis",
+            "course": "GIT493",
+            "program": "GIT",
+            "number": 493,
+            "credits": "1-6",
+            "description": "Supervised research or creative activity focused on preparation and completion of an undergraduate honors thesis or creative project.",
+            "minimum-grade": "none",
+            "requirements": [
+                "Department consent",
+                "Barrett Honors student",
+                "ENG 101, 105, or 107 with C or better"
+            ],
+            "prerequisites": [
+                "Barrett Honors student",
+                "ENG101"
+            ],
+            "semesters": [
+                "fall", 
+                "spring"
+            ],
+            "formats": [
+                "online", 
+                "campus"
+            ],
+            "topics": [
+                
+            ],
+            "focusArea": "All",
+            "equivalents": [
+                
+            ],
+            "generalStudies": [
+                
+            ],
+            "degreeAndTerm": [
+                {"git-bas": 0},
+                {"git-bas-iwd": 0},
+                {"git-bs": 0},
+                {"git-bs-fs": 0},
+                {"git-ux": 0},
+                {"git-bas-o": ""},
+                {"git-bas-iwd-o": ""},
+                {"git-bs-o": ""},
+                {"git-bs-fs-o": ""},
+                {"git-ux-o": ""}
+            ]
+        },
+        {
+            "name": "Individualized Instruction",
+            "course": "GIT499",
+            "program": "GIT",
+            "number": 499,
+            "credits": 3,
+            "description": "Provides an opportunity for original study or investigation in the major or field of specialization, on an individual and more autonomous basis.",
+            "minimum-grade": "none",
+            "requirements": [
+                "Instructor consent"
+            ],
+            "prerequisites": [
+
+            ],
+            "semesters": [
+                "fall", 
+                "spring"
+            ],
+            "formats": [
+                "campus"
+            ],
+            "topics": [
+                
+            ],
+            "focusArea": "All",
             "equivalents": [
                 
             ],
