@@ -86,7 +86,7 @@ $(function(){
         .then(data => handleJSONfile(data));
 
     // variables to store the different types of data in our JSOn file to be used in different sections of the page
-    let focusAreas, coreGitCourses, coreNonGitCourses, genStudies, gitElectives, electives, focusAreaCourses, photoCourses, printCourses, videoCourses, frontEndCourses, interactionDesignCourses, motionGraphicsCourses, uxCourses;
+    // let focusAreas, coreGitCourses, coreNonGitCourses, genStudies, gitElectives, electives, focusAreaCourses, photoCourses, printCourses, videoCourses, frontEndCourses, interactionDesignCourses, motionGraphicsCourses, uxCourses;
 
     // Object to represent a major map for campus programs, to be filled with data from our JSON as needed
     let majorMapCampus = {
@@ -127,20 +127,20 @@ $(function(){
     // Function to handle parsing the JSON file of courses for display
     function handleJSONfile(json){
         // add the different parts of the JSON to the variables we created above
-        focusAreas = json.focusAreas;
-        coreGitCourses = json.coreGit;
-        coreNonGitCourses = json.coreNonGit;
-        genStudies = json.generalStudies;
-        gitElectives = json.gitElectives;
-        electives = json.electives;
-        focusAreaCourses = json.focusAreaCourses;
-        photoCourses = json.commercialPhoto;
-        printCourses = json.commercialPrint;
-        videoCourses = json.commercialVideo;
-        frontEndCourses = json.frontEndWebDev;
-        interactionDesignCourses = json.interactionDesign;
-        motionGraphicsCourses = json.motionGraphics;
-        uxCourses = json.userExperience;
+        // focusAreas = json.focusAreas;
+        // coreGitCourses = json.coreGit;
+        // coreNonGitCourses = json.coreNonGit;
+        // genStudies = json.generalStudies;
+        // gitElectives = json.gitElectives;
+        // electives = json.electives;
+        // focusAreaCourses = json.focusAreaCourses;
+        // photoCourses = json.commercialPhoto;
+        // printCourses = json.commercialPrint;
+        // videoCourses = json.commercialVideo;
+        // frontEndCourses = json.frontEndWebDev;
+        // interactionDesignCourses = json.interactionDesign;
+        // motionGraphicsCourses = json.motionGraphics;
+        // uxCourses = json.userExperience;
     }
 
     // Designate the major map div to be droppable so that the draggable courses we add can be moved to different semesters/terms
