@@ -434,16 +434,44 @@ p, main dl{
     position: relative;
 }
 
-#primary section > section > section::after{
-    content: "";
+/* #primary section > section > section::before{
+    content: "\00A0";
+    font-size: 2.23rem;
     display: block;
     height: 32px;
     width: 100%;
-    bottom: 0;
+    top: 90%;
     left: 0;
     z-index: 1;
     position: relative;
-    background: rgb(255,255,255);
+    
+} */
+
+div.gradient{
+    width: 100%;
+    /* height: 100%; */
+    height: calc(498px - 33px);
+    border-bottom: 1px solid var(--gray3);
+    border-top: 32px solid var(--wht);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    /* background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.95) 12%, rgba(255,255,255,0.9066220238095238) 15%); */
+}
+
+div.gradient::before{
+    content: "\00A0";
+    font-size: 2.23rem;
+    display: block;
+    /* height: 32px; */
+    width: 100%;
+    top: 90%;
+    left: 0;
+    z-index: 2;
+    position: relative;
+    /* background: rgb(255,255,255); */
+    background-color: var(--error);
     background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 80%, rgba(255,255,255,0.9458158263305322) 100%);
 }
 

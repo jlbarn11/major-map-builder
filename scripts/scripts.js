@@ -160,6 +160,7 @@ function compileFocusArea(focusArea){
         }
         html += `
         <section>
+            <div class="gradient"></div>
             <h6>${course.name}
             <span>${course.course}</span></h6>
             <dl>
