@@ -413,6 +413,7 @@ p, main dl{
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 16px;
     margin-top: 32px;
+    position: relative;
 }
 
 #primary h4{
@@ -430,6 +431,20 @@ p, main dl{
     align-items: start;
     max-height: 432px;
     overflow: scroll;
+    position: relative;
+}
+
+#primary section > section > section::after{
+    content: "";
+    display: block;
+    height: 32px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    position: relative;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 80%, rgba(255,255,255,0.9458158263305322) 100%);
 }
 
 #primary h5{
