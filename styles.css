@@ -96,8 +96,8 @@ table {
     height: auto;
     font-size: 1.5rem;
     font-weight: bold;
-    color: var(--wht);
-    background-color: var(--black);
+    color: var(--gray1);
+    background-color: var(--gray7);
     outline: 2px solid var(--orange);
     margin-bottom: 2px;
 }
@@ -230,7 +230,7 @@ h1, h2, h3, h4, h5, h6{
 h1{
     font-size: 2rem;
     line-height: 2.5rem;
-    color: var(--wht);
+    color: var(--gray1);
     text-align: center;
     grid-column: 1/-1;
 }
@@ -249,8 +249,8 @@ h2{
 h3, h4, h5{
     padding: 4px 8px;
     margin: 8px 0;
-    color: var(--wht);
-    background-color: var(--black);
+    color: var(--gray1);
+    background-color: var(--gray7);
 }
 
 /* H3 Styles */
@@ -281,7 +281,7 @@ h6{
     font-family: "Anicons Regular", sans-serif;
 	font-variation-settings: "TIME" 1;
 	font-size: 3rem;
-	color: var(--dark-green);
+    color: var(--gray7);
 	transition: font-variation-settings 0.4s ease;
     background-color: transparent;
     border: none;
@@ -343,7 +343,7 @@ nav a{
     padding: 16px 32px;
     margin: 0 auto;
     background-color: var(--gold);
-    color: var(--black);
+    color: var(--gray7);
     border-radius: 32px;
     transition: all 300ms;
 }
@@ -352,7 +352,7 @@ nav a{
 nav a:hover{
     transform: scale(1.05);
     background-color: var(--gold);
-    color: var(--black);
+    color: var(--gray7);
 }
 
 /* Nav Visited Link Styles */
@@ -425,35 +425,36 @@ p, main dl{
 
 #primary section > section > section{
     border: 1px solid var(--gray3);
-    padding: 32px;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
     max-height: 432px;
-    overflow: scroll;
+    padding: 32px 0;
     position: relative;
 }
 
-/* #primary section > section > section::before{
-    content: "\00A0";
-    font-size: 2.23rem;
-    display: block;
-    height: 32px;
-    width: 100%;
-    top: 90%;
-    left: 0;
-    z-index: 1;
-    position: relative;
-    
-} */
+#primary section > section > section::before{
+    /* content: "\00A0"; */
+    /* font-size: 2.23rem; */
+    /* display: block; */
+    /* height: 48px; */
+    /* width: 100%; */
+    /* top: calc(464px - 48px); */
+    /* left: 0; */
+    /* z-index: 2; */
+    /* position: absolute; */
+    /* background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 80%, rgba(255,255,255,0.9458158263305322) 100%); */
+}
 
 div.gradient{
-    width: 100%;
-    /* height: 100%; */
-    height: calc(498px - 33px);
-    border-bottom: 1px solid var(--gray3);
-    border-top: 32px solid var(--wht);
-    position: absolute;
+    width: calc(100% - 64px);
+    height: 430px;
+    /* height: calc(498px - 33px); */
+    /* border-bottom: 1px solid var(--gray3); */
+    /* border-top: 32px solid var(--wht); */
+    padding: 0 32px;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    /* position: absolute; */
     top: 0;
     left: 0;
     z-index: 1;
@@ -461,18 +462,18 @@ div.gradient{
 }
 
 div.gradient::before{
-    content: "\00A0";
-    font-size: 2.23rem;
-    display: block;
-    /* height: 32px; */
-    width: 100%;
-    top: 90%;
-    left: 0;
-    z-index: 2;
-    position: relative;
+    /* content: "\00A0"; */
+    /* font-size: 2.23rem; */
+    /* display: block; */
+    /* height: 48px; */
+    /* width: 100%; */
+    /* top: calc(464px - 48px); */
+    /* left: 0; */
+    /* z-index: 2; */
+    /* position: absolute; */
     /* background: rgb(255,255,255); */
-    background-color: var(--error);
-    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 80%, rgba(255,255,255,0.9458158263305322) 100%);
+    /* background-color: var(--error); */
+    /* background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 80%, rgba(255,255,255,0.9458158263305322) 100%); */
 }
 
 #primary h5{
@@ -816,7 +817,7 @@ h4.ui-accordion-header.ui-corner-top.ui-state-default.ui-accordion-header-active
 
 /* Footer Styles */
 footer{
-    background: var(--black);
+    background: var(--gray7);
     color: var(--wht);
 }
 

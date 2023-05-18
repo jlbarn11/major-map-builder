@@ -160,17 +160,18 @@ function compileFocusArea(focusArea){
         }
         html += `
         <section>
-            <div class="gradient"></div>
-            <h6>${course.name}
-            <span>${course.course}</span></h6>
-            <dl>
-                <dt>Credits:</dt>
-                <dd>${course.credits}</dd>
-                <dt>Description:</dt>
-                <dd>${course.description}</dd>
-                <dt>Prerequisites:</dt>
-                <dd>${prereqs}</dd>
-            </dl>
+            <div class="gradient">
+                <h6>${course.name}
+                <span>${course.course}</span></h6>
+                <dl>
+                    <dt>Credits:</dt>
+                    <dd>${course.credits}</dd>
+                    <dt>Description:</dt>
+                    <dd>${course.description}</dd>
+                    <dt>Prerequisites:</dt>
+                    <dd>${prereqs}</dd>
+                </dl>
+            </div>
         </section>`;
     }
 
